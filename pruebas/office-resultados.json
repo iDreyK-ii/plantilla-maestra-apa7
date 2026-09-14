@@ -8,119 +8,119 @@
       "ok": true,
       "sha256": "e7e75daec3f20e0773e594c192002cbd2ffb96c37b935923ba20ccccc9a29b55",
       "pages": 5,
-      "pdf_sha256": "530db14ab9c1866282a78288d75da5b8e1b42e60dbf729e24f4e9e872a72d498"
+      "pdf_sha256": "f68bf51376dd8c87b69d2e5716944177df0b72a7b0cbbeb08c5987f0173a16e9"
     },
     {
       "name": "plantillas/Plantilla_academico.docx",
       "ok": true,
       "sha256": "37e5f200ea52ce1d3aaa4f6adc7b3c8fa7e2d0d34ff160293cdae10a19ea34cc",
       "pages": 4,
-      "pdf_sha256": "31cc1f714b9189a7d12d4704599ca486e20b65544d2ef74a4a2c7c663c3d2d7e"
+      "pdf_sha256": "645972a13470daaaf0c63088b9dd6f5223db57b552a14f25790ce395ecf0fd2d"
     },
     {
       "name": "plantillas/Plantilla_enfermeria.docx",
       "ok": true,
       "sha256": "fc10f81aee71ea229769673d2a405435a9e689051a9de6eb00c9e6954f47bd36",
       "pages": 4,
-      "pdf_sha256": "f0c0a8a68bd4e8d8c6b4cce6727c9e0959b57fc1f14afd516015ead0915729e1"
+      "pdf_sha256": "f17cebbe70aeec2087d74909e7bf65d337c981d9ecf43cc00b87812783752311"
     },
     {
       "name": "plantillas/Plantilla_ensayo.docx",
       "ok": true,
       "sha256": "8d28e61b6942140fe0ba622f1127e79835f62dcb1ff8a474f2bad01cbe3aeccb",
       "pages": 4,
-      "pdf_sha256": "fbee739b86a2e758487f5e2b471977a203e1489ddfd13143fcb686a3a1379ee4"
+      "pdf_sha256": "82ea13cbace2ae8c4910ffe5931b75ae5b2ad293afb1075d7577d96b3ed15041"
     },
     {
       "name": "plantillas/Plantilla_ensayo_editorial.docx",
       "ok": true,
       "sha256": "8bb264cace2c65fd134b2c301aa5ec72ec494d7b25bad17b5144d01175564b44",
       "pages": 3,
-      "pdf_sha256": "8529e73b0920fdee0cae4f9842537609b1b03ff8fee926ec4cff6ff2b4a9e5cc"
+      "pdf_sha256": "7e9ea67bb9f2f0201fab586ccc31721d05ecd3e811f902cb454d2fbd16951a8a"
     },
     {
       "name": "plantillas/Plantilla_informe.docx",
       "ok": true,
       "sha256": "35be431bbf71d0a370d7c2d6784b5f8b04de0fb8cf2e34acf7de491764f436c9",
       "pages": 4,
-      "pdf_sha256": "3c45b72087b1675520802103e0dc685624f1824012ee24760a5480080aa89ff3"
+      "pdf_sha256": "1a7536118ec4d6baba8d45fde774014ce5aa7be7f60eca6932fc31d0c9fe07bc"
     },
     {
       "name": "plantillas/Plantilla_monografia.docx",
       "ok": true,
       "sha256": "42ceec5eb71f24e5e3fbc40541891ec405919625f0c77ae2a68b716ad9528a3c",
       "pages": 5,
-      "pdf_sha256": "cdcc8cec5874efcb10bb985716e72598be35f7bfdf085bc6af3fac7c35c5f385"
+      "pdf_sha256": "4c204e1dbb31197c25de2235c74701743587bfdd89e8a189b0cff20a6cf13546"
     },
     {
       "name": "plantillas/Plantilla_otro.docx",
       "ok": true,
       "sha256": "84406efd83f5d0a576da2903d00b8f408d0e3c75558b11cb844353197d57694a",
       "pages": 4,
-      "pdf_sha256": "e23f71e3aadce2072ed5307d615cf4c35bb2bbc43018e4aa56344efb8fb66fff"
+      "pdf_sha256": "4396650a94381722c030341d208f6afecfe10dba47e484663d52ac889eed02fd"
     },
     {
       "name": "plantillas/Plantilla_upeu_articulo.docx",
       "ok": true,
       "sha256": "26ac111a6e94fab71c48a1ba7df1d3b7b5379984719f413423b315bba8df35e5",
       "pages": 4,
-      "pdf_sha256": "25c55b5875570899d865483140f4af98a53b3562e24c5620f974568dd9894abc"
+      "pdf_sha256": "1cd59b4e55377cbb44224b6a685c3ac23045ec125c9d71fe5abb9a7d31e8c775"
     },
     {
       "name": "plantillas/Plantilla_upeu_doctoral.docx",
       "ok": true,
       "sha256": "1aa152161f2020b2c3d5413918265d366490332df4c77e51edb366615bd8a1b1",
       "pages": 6,
-      "pdf_sha256": "1feb61370d43816b05069087a7648166b3614ffc9690a39c98acf8f852d5503a"
+      "pdf_sha256": "d385002c8bbdbae91659e8888e4135548be9095f4ba582b941702a99c3b44ee4"
     },
     {
       "name": "plantillas/Plantilla_upeu_perfil.docx",
       "ok": true,
       "sha256": "ee918aef18a4f1d6e55939b2b0269fb26832898c174a2469b16a25931f3c22c6",
       "pages": 7,
-      "pdf_sha256": "8eda4ffcbf730e878511b8c3b69af32e2b5c64ac60ec07482aad9bc719b53104"
+      "pdf_sha256": "a50c04d92bc487b50e7b2deef2bd220721393842355d1229d58e201460636ec8"
     },
     {
       "name": "plantillas/Plantilla_upeu_revision.docx",
       "ok": true,
       "sha256": "a711090461c8595212982bc2a3e8ae491f428a29596d239c977c272bad547ee2",
       "pages": 4,
-      "pdf_sha256": "cda79d02b8e5b7088819c82d73363aa0567c0a1aa6560be56b86359109d2a4cf"
+      "pdf_sha256": "139ef79bbbb2b5665d727e52409e3dcdf114abfbac217d1d3f1f79b2292a85a9"
     },
     {
       "name": "plantillas/Plantilla_upeu_revision_articulo.docx",
       "ok": true,
       "sha256": "86d871ce1f64b7eb2a5a0d87e0d364c93a5af46bbfc5b666e6e1e6784ad632ae",
       "pages": 4,
-      "pdf_sha256": "ada087aed4608bddb7ac7eab903c0a5188100ad7540053f7f983282142964876"
+      "pdf_sha256": "b46c419eea2e4fb6a814bb44d671572041975df96a2dd912c84b8704cdaaa256"
     },
     {
       "name": "plantillas/Plantilla_upeu_tesis_articulo.docx",
       "ok": true,
       "sha256": "5702e422e13ce89291a5da0e960f47aef3e99e26f80fdffb3fe9d75ca8bcd60e",
       "pages": 5,
-      "pdf_sha256": "20d9be39a81526a96d03c54eed5caa73d5e47ff49630ba16d00b402cc3daa5de"
+      "pdf_sha256": "327bc8ae69c0a59ff73bb085380f263db03d39a6e3bc2d24214caadec169140e"
     },
     {
       "name": "plantillas/Plantilla_upeu_tradicional.docx",
       "ok": true,
       "sha256": "10406562d2937bb4f395ffc0ab9f77f003b5d25710d799a84da7c1c76736316b",
       "pages": 6,
-      "pdf_sha256": "7268dd63517525efc5328429e1b08beeb7231b0bbe7565dc6a3ce24e3410698b"
+      "pdf_sha256": "3c9552dbc4df8cde7b64696815757f112619c5f178446603120abf60f10e3710"
     },
     {
       "name": "Guia_APA7_Estudio.docx",
       "ok": true,
       "sha256": "12527f70981f23ff0b91e66deb89288a89210492a1b1e09bbfb2c4b894764e01",
       "pages": 15,
-      "pdf_sha256": "496bfc67348c0b101e2c0fd2a8094822665d970ec4387f315c3da7a6d2eaaeba"
+      "pdf_sha256": "f6b01338c816c7657220e7e5229fd743a14a46ce3b5aa6beba3d1307b5b377e5"
     },
     {
       "name": "pruebas/apa-general-exportada.docx",
       "ok": true,
-      "sha256": "33cb82a286898c10a891ee5a9e084de709bd54eac2955c1a5a45e2b5efd4b81d",
+      "sha256": "964ba7dac49597d75929c94fd8d29cb571e2e26956b3ba0d155e4dc531e2409e",
       "pages": 5,
-      "pdf_sha256": "5d5fe15cfe617010269af65d59adf5369399d697d6fb0c95c4dcd64937b5c09d"
+      "pdf_sha256": "dc9b925206e5541076d1c3ce6cb8f313f9d470079f48c050da8a07205d9eb213"
     }
   ]
 }

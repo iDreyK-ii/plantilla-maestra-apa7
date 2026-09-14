@@ -1,11 +1,15 @@
 # Revisión de la entrega vigente
 
-**Edición 5.5.0 · 14 de septiembre de 2026**
+**Edición 5.6.0 · 14 de septiembre de 2026**
 
 ## Cambios y correcciones
 
+- Inicio reordenado: cajón principal de plantilla normal, cajón del editor (nuevo, abrir Word y documentos guardados), catálogo específico, ayuda/respaldo y herramientas adicionales desplegables. Sin duplicar la plantilla general dentro del catálogo.
+- Se reemplaza el render 3D anterior por un SVG 2D propio, incorporado en ambos HTML. Ojos, brazo, cabeza y detalles se animan por separado; la pausa y el movimiento reducido detienen todas las partes.
+- Cinco casos adicionales verifican jerarquía, crear/retomar, importación desde el nuevo botón, cambios reales en la línea de tiempo de la animación y herramientas desplegables. Las comprobaciones de imagen se adaptan a la representación SVG, conservando la verificación autónoma y sin recursos externos.
+
 - Paleta más viva: rosado bebé y turquesa, con lila, amarillo y durazno. Se mantienen contraste legible, adaptación móvil y papel académico blanco.
-- Una sola enfermera kawaii de piel clara, uniforme blanco y movimiento suave con pausa. La marca continúa siendo APA para cualquier persona.
+- Una sola enfermera kawaii 2D de piel clara, uniforme blanco, pestañeo y saludo con pausa. La marca continúa siendo APA para cualquier persona.
 - Se corrigió el contraste de etiquetas y una pestaña del editor tras cambiar los fondos, sin excluir reglas de accesibilidad.
 - La apertura real en LibreOffice mostró una tabla breve partida entre dos páginas. Se mantienen juntos su número, título y filas en la plantilla general y las tablas breves exportadas. Las tablas largas pueden continuar en otras páginas.
 - Se retiró una imagen huérfana de la guía Word sin figuras. Se conservan la figura académica de ejemplo y las fuentes investigadas.
@@ -13,7 +17,9 @@
 
 ## Verificación de esta edición
 
-**Resultado local: 348/348 aprobados**, con salida 0. La batería principal comprende **348 casos**: 340 en 18 archivos JSON y 8 pruebas unitarias de sincronización. Incluye 14 de diseño y 8 de estructura Word general. Las repeticiones no se suman como pruebas nuevas.
+Se actualizaron los localizadores de pruebas afectados por las etiquetas nuevas y por el cajón desplegable de herramientas; no se retiraron comprobaciones. La animación de brazo, ojos y cabeza y su pausa se verificaron también en Chromium, Firefox y WebKit.
+
+**Resultado local: 353/353 aprobados**, con salida 0. La batería principal comprende **353 casos**: 345 en 18 archivos JSON y 8 pruebas unitarias de sincronización. Incluye 19 de diseño y 8 de estructura Word general. Las repeticiones no se suman como pruebas nuevas.
 
 La comprobación adicional `npm run test:office` abre y renderiza **17 DOCX** (15 plantillas, guía y una exportación real), mediante LibreOffice Writer 25.2.3.2. Comprueba papel Carta, texto dentro de la página, ausencia de páginas vacías, contenido final y, en APA general, figura visible y tabla breve en una sola página. El informe `pruebas/office-resultados.json` corresponde a esta ejecución local opcional; **no forma parte de test:all ni demuestra una ejecución de LibreOffice en GitHub Actions**.
 

@@ -1,6 +1,6 @@
 # Plantilla Maestra APA 7 · Studio
 
-**Entrega única actualizada · 14 de septiembre de 2026 · edición técnica 5.5.0**
+**Entrega única actualizada · 14 de septiembre de 2026 · edición técnica 5.6.0**
 
 Tu espacio para escribir trabajos académicos, aprender APA 7 y descargar documentos Word editables. La evolución conserva el editor y las funciones anteriores; incorpora un dashboard más diseñado, una interfaz kawaii de colores vivos y documentos académicos sobrios.
 
@@ -14,7 +14,7 @@ Tu espacio para escribir trabajos académicos, aprender APA 7 y descargar docume
 | `Guia_APA7_Estudio.docx` | Guía de estudio: 13 módulos con ejemplos, pasos y respuestas explicadas. |
 | `Plantillas_APA7_Word.zip` | **15 plantillas + una guía**: 16 archivos Word. |
 | `descargas.html` | Descargas directas, sin editor. También funciona como un único HTML, sin JavaScript ni archivos vecinos. |
-| `Word_APA_GitHub_5_5_0.zip` | Único paquete vigente para GitHub: aplicación, Word, documentación, código y pruebas. |
+| `Word_APA_GitHub_5_6_0.zip` | Único paquete vigente para GitHub: aplicación, Word, documentación, código y pruebas. |
 | `FUENTES_Y_MODELOS_APA7.md` | Investigación, procedencia, límites y guías de los modelos. |
 | `REVISION_APA7.md` | Pruebas realizadas, resultados y limitaciones verificadas. |
 
@@ -233,8 +233,17 @@ La base general muestra portada, párrafos, encabezados, citas, tabla, figura y 
 
 ## Apariencia y movimiento
 
-Rosado bebé, turquesa, lila y amarillo suave en la interfaz; papel académico blanco. La ilustración tiene movimiento suave y un botón de pausa, sin afectar tus documentos. Se respeta el movimiento reducido del dispositivo. Sin JavaScript, la ilustración es estática y el control de pausa se oculta.
+Rosado bebé, turquesa, lila y amarillo suave en la interfaz; papel académico blanco. La enfermera es un SVG kawaii 2D con pestañeo, saludo del brazo e inclinación suave de cabeza, y tiene un botón de pausa, sin afectar tus documentos. Se respeta el movimiento reducido del dispositivo. Sin JavaScript, la ilustración es estática y el control de pausa se oculta.
 
 ## Compatibilidad de los Word
 
 Además de revisar OOXML y descargas, se abrieron y renderizaron los 16 Word descargables y una exportación de los ejemplos con LibreOffice Writer. Se corrigió la división de la tabla breve entre páginas y se retiró una imagen huérfana de la guía. Consulta el informe para conocer motor, tipografía y alcance exactos. No equivale a una certificación de todos los programas o requisitos institucionales.
+
+## Inicio en cajones
+
+1. **Plantilla normal APA 7:** descarga el Word o consulta los ejemplos en el editor.
+2. **Escribir o editar:** crea un documento en blanco, abre un Word como copia o retoma uno guardado.
+3. **Plantillas específicas:** los 14 modelos permanecen separados de la plantilla principal y organizados por categorías.
+4. **Ayuda y herramientas:** aprendizaje y respaldo tienen sus bloques; los accesos adicionales están en «Más herramientas».
+
+La animación cambia partes del dibujo, no desplaza una fotografía. Respeta el movimiento reducido y la pausa; sin JavaScript queda estática.

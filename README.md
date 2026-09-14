@@ -1,6 +1,6 @@
 # Plantilla Maestra APA 7
 
-Escribe en APA o descarga una de las 15 plantillas Word. Sin cuenta; tus documentos se guardan en tu navegador.
+Descarga tu plantilla APA o escribe aquí. También tienes modelos para tesis, ensayos y otros trabajos. Sin cuenta; tus documentos se guardan en tu navegador.
 
 **[Abrir web](https://idreyk-ii.github.io/plantilla-maestra-apa7/)** · [Plantillas](https://idreyk-ii.github.io/plantilla-maestra-apa7/descargas.html)
 

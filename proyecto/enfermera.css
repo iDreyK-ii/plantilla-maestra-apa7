@@ -1,0 +1,14 @@
+/* Personaje vectorial 2D: ojos, cabeza, brazo y detalles se animan por separado. */
+svg.nursing-art{display:block;max-width:100%;height:auto;animation:none!important;transform:none!important}.download-intro>svg.nursing-art{width:250px;flex-shrink:0}.nurse-eyes{transform-origin:239px 183px}.nurse-arm{transform-origin:305px 256px}.nurse-head{transform-origin:240px 238px}.nurse-spark{transform-origin:240px 185px}.nurse-eyes,.nurse-arm,.nurse-head,.nurse-spark{transform-box:view-box;animation:none}
+@keyframes nurse-blink{0%,90%,96%,100%{transform:scaleY(1)}93%{transform:scaleY(.08)}}
+@keyframes nurse-wave{0%,100%{transform:rotate(-3deg)}35%{transform:rotate(9deg)}70%{transform:rotate(-6deg)}}
+@keyframes nurse-nod{0%,100%{transform:rotate(-1deg)}50%{transform:rotate(1deg)}}
+@keyframes nurse-stars{0%,100%{opacity:.65;transform:translateY(0)}50%{opacity:1;transform:translateY(-4px)}}
+html[data-decorative-motion='running'] .nurse-eyes{animation:nurse-blink 5.8s ease-in-out infinite}
+html[data-decorative-motion='running'] .nurse-arm{animation:nurse-wave 3.2s ease-in-out infinite}
+html[data-decorative-motion='running'] .nurse-head{animation:nurse-nod 7s ease-in-out infinite}
+html[data-decorative-motion='running'] .nurse-spark{animation:nurse-stars 5s ease-in-out infinite}
+html[data-decorative-motion='running'] .nurse-spark.second{animation-delay:1.5s}
+html[data-decorative-motion='paused'] .nurse-eyes,html[data-decorative-motion='paused'] .nurse-arm,html[data-decorative-motion='paused'] .nurse-head,html[data-decorative-motion='paused'] .nurse-spark{animation:none!important;transform:none!important}
+@media(prefers-reduced-motion:reduce){.nurse-eyes,.nurse-arm,.nurse-head,.nurse-spark{animation:none!important;transform:none!important}}
+@media(max-width:650px){.download-intro>svg.nursing-art{width:190px;margin:15px auto}}

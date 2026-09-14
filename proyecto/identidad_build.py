@@ -26,7 +26,7 @@ def enhance_identity(s, base):
     root=base.parent
     def frag(html):return BeautifulSoup(html,'html.parser')
     add_head(s,root)
-    style=s.new_tag('style',id='identidad-visual');style.string=(base/'identidad.css').read_text()+'\n'+(base/'universal.css').read_text()+'\n'+(base/'kawaii-final.css').read_text();s.head.append(style)
+    style=s.new_tag('style',id='identidad-visual');style.string=(base/'identidad.css').read_text()+'\n'+(base/'universal.css').read_text()+'\n'+(base/'kawaii-final.css').read_text()+'\n'+(base/'enfermera.css').read_text();s.head.append(style)
     for mark in s.select('.logo-mark'):
         mark.clear();mark.append(s.new_tag('img',src=asset_uri(root,'favicon.svg','image/svg+xml'),alt='',width='43',height='43'))
     s.select_one('.home-nav .brand small').string='ESTUDIA CON CALMA. ESCRIBE CON PROPÓSITO.'
@@ -40,7 +40,7 @@ def enhance_identity(s, base):
     hero.select_one('p').string='Una base clara para cualquier persona que necesite escribir. Tú eliges el tema y dónde continuar.'
     hero.select_one('.studio-hero-actions').replace_with(frag('''<div class="work-routes"><section id="writeRoute"><span class="route-kicker">01 · EN LA WEB</span><h3>Escribe aquí</h3><p>Aprende con ejemplos o empieza con una hoja APA en blanco.</p><button id="generalExamples" class="btn primary" onclick="startGeneralAPA('examples')">Empezar con ejemplos →</button><button id="generalBlank" class="route-secondary" onclick="startGeneralAPA('blank')">Prefiero una hoja en blanco</button></section><section id="downloadRoute"><span class="route-kicker">02 · EN TU EQUIPO</span><h3>Continúa en Word</h3><p>Descarga la APA general explicada o elige un modelo por categoría.</p><a class="btn primary" data-ready-word="base">↓ Descargar APA general</a><button class="route-secondary" onclick="goToWordDownloads()">Explorar los modelos ↓</button></section></div>'''))
     art=hero.select_one('.studio-mascot');art.clear();art.attrs.pop('aria-hidden',None)
-    art.append(s.new_tag('img',src=asset_uri(root,'estudiantes-kawaii.webp','image/webp'),attrs={'class':'nursing-art','alt':'Enfermera kawaii de piel clara y uniforme blanco preparando un documento','width':'960','height':'640','decoding':'async'}))
+    art.append(frag((root/'assets/enfermera-kawaii.svg').read_text()))
     art.append(frag('<span class="care-spark" aria-hidden="true">✦</span><span class="care-spark second" aria-hidden="true">♡</span><span class="care-spark third" aria-hidden="true">✧</span><button type="button" class="motion-toggle" data-motion-toggle="" aria-pressed="false" hidden>Pausar animación</button>'))
     note=s.select_one('.rail-note');note.select_one('b').string='También cuida de ti.';note.select_one('p').string='Una pausa, una idea y un paso más. Tu aprendizaje tiene su propio ritmo.'
     note.insert(0,s.new_tag('img',src=asset_uri(root,'favicon.svg','image/svg+xml'),alt='',width='55',height='55',attrs={'class':'rail-companion','aria-hidden':'true'}))
@@ -71,6 +71,8 @@ def enhance_identity(s, base):
     normal['href']=asset_uri(root,'../Plantilla_Maestra_APA7_Word.docx','application/vnd.openxmlformats-officedocument.wordprocessingml.document');normal['download']='Plantilla_Maestra_APA7_Word.docx'
     footer=s.select_one('.home-footer')
     footer.append(frag('<span>Studio APA · '+json.loads((root/'package.json').read_text())['version']+' · Diseño sereno, trabajo riguroso.</span>'))
+    from inicio_build import ordenar_inicio
+    ordenar_inicio(s,base)
 
 
 def enhance_downloads(s,root):
@@ -80,9 +82,9 @@ def enhance_downloads(s,root):
     intro=s.new_tag('section',attrs={'class':'download-intro'});text=s.new_tag('div')
     for node in [s.select_one('main > .tag'),s.select_one('h1'),s.select_one('.lead')]:
         if node:node.extract();text.append(node)
-    intro.append(text);intro.append(s.new_tag('img',src=asset_uri(root,'estudiantes-kawaii.webp','image/webp'),alt='Enfermera kawaii con uniforme blanco estudiando',width='960',height='640',attrs={'class':'nursing-art'}));brand.insert_after(intro)
+    intro.append(text);intro.append(BeautifulSoup((root/'assets/enfermera-kawaii.svg').read_text(),'html.parser'));brand.insert_after(intro)
     button=s.new_tag('button',type='button',attrs={'class':'motion-toggle','data-motion-toggle':'','aria-pressed':'false','hidden':''});button.string='Pausar animación';text.append(button)
-    visual=s.new_tag('style');visual.string=(root/'proyecto/kawaii-final.css').read_text();s.head.append(visual)
+    visual=s.new_tag('style');visual.string=(root/'proyecto/kawaii-final.css').read_text()+'\n'+(root/'proyecto/enfermera.css').read_text();s.head.append(visual)
     motion=s.new_tag('script');motion.string=(root/'proyecto/movimiento.js').read_text();s.body.append(motion)
 
     # Familias visibles incluso sin JavaScript en la página independiente.

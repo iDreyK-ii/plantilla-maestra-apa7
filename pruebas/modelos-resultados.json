@@ -202,59 +202,59 @@
   "timings": [
     {
       "id": "academico",
-      "milliseconds": 164
+      "milliseconds": 126
     },
     {
       "id": "ensayo",
-      "milliseconds": 161
+      "milliseconds": 123
     },
     {
       "id": "informe",
-      "milliseconds": 171
+      "milliseconds": 118
     },
     {
       "id": "monografia",
-      "milliseconds": 159
+      "milliseconds": 125
     },
     {
       "id": "upeu-perfil",
-      "milliseconds": 148
+      "milliseconds": 134
     },
     {
       "id": "upeu-tesis-articulo",
-      "milliseconds": 159
+      "milliseconds": 124
     },
     {
       "id": "upeu-articulo",
-      "milliseconds": 140
+      "milliseconds": 123
     },
     {
       "id": "upeu-revision",
-      "milliseconds": 80
+      "milliseconds": 127
     },
     {
       "id": "upeu-revision-articulo",
-      "milliseconds": 168
+      "milliseconds": 112
     },
     {
       "id": "upeu-doctoral",
-      "milliseconds": 152
+      "milliseconds": 123
     },
     {
       "id": "upeu-tradicional",
-      "milliseconds": 171
+      "milliseconds": 125
     },
     {
       "id": "enfermeria",
-      "milliseconds": 161
+      "milliseconds": 115
     },
     {
       "id": "ensayo-editorial",
-      "milliseconds": 153
+      "milliseconds": 105
     },
     {
       "id": "otro",
-      "milliseconds": 154
+      "milliseconds": 117
     }
   ],
   "errors": [],

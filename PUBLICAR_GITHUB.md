@@ -1,6 +1,6 @@
 # Desarrollo y publicación
 
-Edición vigente: **5.5.0** · [Repositorio](https://github.com/iDreyK-ii/plantilla-maestra-apa7) · [Aplicación](https://idreyk-ii.github.io/plantilla-maestra-apa7/)
+Edición vigente: **5.6.0** · [Repositorio](https://github.com/iDreyK-ii/plantilla-maestra-apa7) · [Aplicación](https://idreyk-ii.github.io/plantilla-maestra-apa7/)
 
 ## Reconstruir y verificar
 
@@ -30,7 +30,7 @@ npm run sync:github
 npm run sync:github -- --publicar --mensaje "Describir los cambios verificados"
 ```
 
-El primer comando prepara `Word_APA_GitHub_5_5_0.zip`. El segundo solo compara. El tercero verifica el paquete, crea un commit y publica sin force-push. Se detiene si main cambió desde la última confirmación. El registro local está en `.git/apa7-sincronizacion.json`; nunca contiene credenciales.
+El primer comando prepara `Word_APA_GitHub_5_6_0.zip`. El segundo solo compara. El tercero verifica el paquete, crea un commit y publica sin force-push. Se detiene si main cambió desde la última confirmación. El registro local está en `.git/apa7-sincronizacion.json`; nunca contiene credenciales.
 
 Se necesita GitHub CLI autenticado con permiso sobre el repositorio. Las credenciales se gestionan fuera del proyecto y pueden desaparecer al reiniciar el entorno. Para cambios de workflows se requiere también el alcance `workflow`. Utiliza `gh auth login --web --git-protocol https --scopes workflow`; no envíes contraseñas ni tokens por chat.
 

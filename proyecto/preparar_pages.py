@@ -9,7 +9,7 @@ site=root/'dist'
 if site.exists(): rmtree(site)
 site.mkdir()
 files=['index.html','Plantilla_Maestra_APA7.html','descargas.html','Plantilla_Maestra_APA7_Word.docx','Guia_APA7_Estudio.docx','Plantillas_APA7_Word.zip']
-files += ['assets/favicon.svg','assets/favicon.png','assets/estudiantes-kawaii.webp','assets/vista-previa.png','assets/vista-editor.png','assets/ejemplo-esquema.png']
+files += ['assets/favicon.svg','assets/favicon.png','assets/enfermera-kawaii.svg','assets/vista-previa.png','assets/vista-editor.png','assets/ejemplo-esquema.png']
 models=json.loads((root/'proyecto/catalogo.json').read_text())['models']
 files += ['plantillas/Plantilla_'+m['id'].replace('-','_')+'.docx' for m in models]
 for name in files:

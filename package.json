@@ -1,6 +1,6 @@
 {
   "name": "plantilla-maestra-apa7",
-  "version": "5.5.0",
+  "version": "5.6.0",
   "scripts": {
     "build": "python proyecto/crear_catalogo.py && python proyecto/crear_plantilla_word.py && python proyecto/crear_modelos_word.py && python proyecto/documentar_catalogo.py && python proyecto/crear_aprendizaje.py && python proyecto/crear_descargas.py && esbuild proyecto/word-export.js --bundle --format=iife --global-name=APAWord --platform=browser --target=es2020 --minify --outfile=proyecto/vendor-word.js --legal-comments=linked && esbuild proyecto/word-import.js --bundle --format=iife --global-name=APAImport --platform=browser --target=es2020 --minify --outfile=proyecto/vendor-import.js --legal-comments=linked && python proyecto/compilar.py && python proyecto/sincronizar_html.py",
     "start": "python -m http.server 3000 --bind 0.0.0.0",

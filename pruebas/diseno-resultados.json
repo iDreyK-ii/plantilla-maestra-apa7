@@ -37,6 +37,26 @@
       "ok": true
     },
     {
+      "name": "Cajones: plantilla principal primero, editor separado y 14 modelos fuera de ambos",
+      "ok": true
+    },
+    {
+      "name": "Nuevo documento y documentos guardados funcionan desde el cajón del editor",
+      "ok": true
+    },
+    {
+      "name": "Abrir un Word desde el cajón importa una copia nueva y conserva el documento previo",
+      "ok": true
+    },
+    {
+      "name": "Animación real del personaje: cambian el brazo y el pestañeo, no solo la posición de una imagen",
+      "ok": true
+    },
+    {
+      "name": "Ayuda separada y herramientas adicionales desplegables siguen accesibles",
+      "ok": true
+    },
+    {
       "name": "17 archivos: un clic, una descarga exacta, sin redirección, selector ni modal",
       "ok": true
     },
