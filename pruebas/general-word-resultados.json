@@ -1,0 +1,34 @@
+[
+  {
+    "name": "APA general: ejemplos e instrucciones identificados, sin fuentes ficticias presentadas como reales",
+    "ok": true
+  },
+  {
+    "name": "APA general: tabla y figura reales con título y nota",
+    "ok": true
+  },
+  {
+    "name": "Niveles 4 y 5: texto en la misma línea sin negrita/cursiva de encabezado",
+    "ok": true
+  },
+  {
+    "name": "Word descargable y exportado: Carta, márgenes, tipografía, tabla e imagen",
+    "ok": true
+  },
+  {
+    "name": "Tabla didáctica sin rejilla vertical y con encabezado repetible",
+    "ok": true
+  },
+  {
+    "name": "Los 14 modelos conservan sus estructuras sin los ejemplos de la APA general",
+    "ok": true
+  },
+  {
+    "name": "Tabla breve: título unido y filas conservadas juntas en Word general y exportado",
+    "ok": true
+  },
+  {
+    "name": "Guía sin imágenes huérfanas ni archivos visuales duplicados",
+    "ok": true
+  }
+]

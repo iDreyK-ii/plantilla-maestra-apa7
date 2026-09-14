@@ -1,0 +1,10 @@
+# Entorno Python fijado para construcción y pruebas de esta entrega.
+beautifulsoup4==4.15.0
+soupsieve==2.9.1
+pymupdf==1.28.2
+python-docx==1.1.2
+lxml==6.1.1
+html5lib==1.1
+six==1.17.0
+webencodings==0.5.1
+typing_extensions==4.16.0

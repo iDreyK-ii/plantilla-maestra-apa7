@@ -1,0 +1,281 @@
+PLANTILLA MAESTRA APA 7 — INSTRUCCIONES PARA ARENA AI
+
+Usa el archivo adjunto "Plantilla_Maestra_APA7_Web_v2.html" como la BASE FUNCIONAL del proyecto.
+
+IMPORTANTE:
+No lo trates como una simple plantilla visual.
+No lo reemplaces por una maqueta.
+No elimines las funciones existentes.
+No reconstruyas todo desde cero sin analizar primero el archivo.
+
+El HTML ya incorpora una versión desarrollada de la aplicación. Tu tarea es tomarla como punto de partida y continuar su evolución profesional.
+
+OBJETIVO GENERAL
+
+Convertir el proyecto en una plataforma web de edición académica y aprendizaje de APA 7.ª edición llamada:
+
+PLANTILLA MAESTRA APA 7
+
+La aplicación debe permitir que una persona que nunca ha usado APA pueda:
+
+CREAR → ESCRIBIR → FORMATEAR → APRENDER → REVISAR → ORGANIZAR → EXPORTAR
+
+un trabajo académico.
+
+FUNCIONES QUE YA DEBEN CONSERVARSE
+
+La versión adjunta ya contiene:
+
+- Texto normal / Párrafo APA.
+- Texto sin sangría.
+- Título.
+- Subtítulo.
+- Subtítulo 1.
+- Subtítulo 2.
+- Encabezados APA niveles 1 a 5.
+- Referencia APA con sangría francesa.
+- Tabla APA insertable con un clic.
+- Figura APA.
+- Citas.
+- Gestor inicial de referencias.
+- Portada configurable.
+- Asistente para crear documento.
+- Panel de estructura.
+- Guía de aprendizaje APA.
+- Lista final de revisión.
+- Revisión básica de formato APA.
+- Guardado local y autoguardado.
+- Duplicado local.
+- Exportación HTML.
+- Impresión / PDF.
+- Diseño responsive.
+
+NO elimines estas funciones.
+
+CONSERVAR CONFIGURACIÓN BASE
+
+- Papel Carta: 8.5 × 11 pulgadas.
+- Márgenes: 2.54 cm.
+- Times New Roman 12 pt.
+- Interlineado doble.
+- Párrafo APA: sangría de primera línea de 1.27 cm.
+- Referencias: sangría francesa de 1.27 cm.
+- Encabezados APA niveles 1–5.
+
+LÓGICA DE ESTILOS
+
+La característica más importante de la aplicación es que los estilos se puedan aplicar con un clic.
+
+Debe mantenerse separada la lógica de:
+
+CONTENIDO
+ESTRUCTURA
+FORMATO
+
+No usar espacios para simular sangrías.
+No usar saltos de línea para simular separación.
+No convertir los estilos APA en simple decoración.
+
+TABLAS APA
+
+Mejorar progresivamente la tabla para permitir:
+
+- editar número;
+- editar título;
+- editar nota;
+- editar celdas;
+- agregar filas;
+- eliminar filas;
+- agregar columnas;
+- eliminar columnas;
+- duplicar;
+- eliminar;
+- mantener formato al imprimir;
+- evitar que la tabla se corte de forma problemática.
+
+REFERENCIAS
+
+Mejorar el gestor para permitir:
+
+- libros;
+- artículos;
+- páginas web;
+- documentos;
+- otras fuentes;
+- autor;
+- año;
+- título;
+- fuente;
+- editorial;
+- DOI;
+- URL.
+
+Mantener orden alfabético y sangría francesa.
+
+CITAS
+
+Mejorar para admitir:
+
+- cita narrativa;
+- cita parentética;
+- página;
+- múltiples autores;
+- reutilización de referencias almacenadas.
+
+ASISTENTE DE DOCUMENTO
+
+Conservar y mejorar el asistente "Crear trabajo APA".
+
+Debe permitir elegir:
+
+- tipo de trabajo;
+- portada;
+- estructura;
+- secciones;
+- datos académicos.
+
+Luego crear la estructura inicial automáticamente.
+
+MODO APRENDER APA
+
+Conservar y ampliar la guía.
+
+Debe enseñar desde cero:
+
+1. Qué es APA.
+2. Configuración.
+3. Portada.
+4. Texto normal.
+5. Sangría.
+6. Encabezados.
+7. Citas.
+8. Referencias.
+9. Tablas.
+10. Figuras.
+11. Revisión final.
+12. Exportación.
+
+Las explicaciones deben ser didácticas y comprensibles para estudiantes.
+
+REVISOR APA
+
+Mejorar el revisor para mostrar:
+
+- Correcto.
+- Revisar.
+- Explicación.
+- Acción recomendada.
+
+Nunca afirmar que un documento cumple perfectamente APA si la revisión es solamente parcial.
+
+Debe quedar claro que el revisor detecta aspectos básicos de formato y no sustituye la revisión académica o las normas particulares de una universidad.
+
+ÍNDICE Y NAVEGACIÓN
+
+Detectar automáticamente encabezados H1–H5.
+
+Permitir navegar desde el panel lateral.
+
+Cuando sea técnicamente viable, crear un índice dinámico que se actualice cuando cambie la estructura.
+
+PAGINACIÓN Y EXPORTACIÓN
+
+Mantener:
+
+- representación de página Carta;
+- márgenes;
+- numeración;
+- impresión limpia;
+- PDF desde impresión;
+- exportación HTML.
+
+Los controles de edición no deben aparecer en el documento impreso.
+
+DISEÑO
+
+Debe verse como un editor académico profesional.
+
+Priorizar:
+- claridad;
+- legibilidad;
+- productividad;
+- orden;
+- sencillez.
+
+No convertirlo en una interfaz excesivamente colorida.
+
+RESPONSIVE
+
+Debe funcionar en:
+- computadora;
+- laptop;
+- tablet;
+- teléfono.
+
+PROCESO DE MEJORA
+
+Primero analiza todo el HTML existente.
+
+Después mejora en este orden:
+
+1. Estabilidad del editor.
+2. Estilos APA.
+3. Tablas.
+4. Referencias.
+5. Citas.
+6. Asistente de documentos.
+7. Guía APA.
+8. Revisor.
+9. Índice.
+10. Paginación.
+11. Exportación.
+12. Experiencia de usuario.
+
+ANTES DE ENTREGAR
+
+Prueba que funcionen realmente:
+
+- crear documento;
+- escribir;
+- aplicar cada estilo;
+- insertar tabla;
+- insertar figura;
+- insertar cita;
+- agregar referencia;
+- editar portada;
+- guardar;
+- recargar y recuperar;
+- revisar APA;
+- imprimir;
+- exportar HTML.
+
+NO entregues botones que parezcan funcionales si todavía no tienen comportamiento.
+
+IMPORTANTE SOBRE EL PROYECTO
+
+Esta aplicación se utilizará como una PLANTILLA MAESTRA.
+
+El tema del trabajo cambiará.
+
+La estructura APA y las herramientas deben permanecer.
+
+Por ejemplo, el mismo sistema debe poder utilizarse para trabajos sobre:
+
+- pancreatitis;
+- crisis hipertensiva;
+- EKG;
+- farmacología;
+- cuidados de Enfermería;
+- otros trabajos académicos.
+
+RESULTADO ESPERADO
+
+No quiero solamente una explicación de lo que podrías hacer.
+
+Quiero que trabajes directamente sobre el proyecto proporcionado, conservando lo que ya funciona y desarrollando progresivamente una versión profesional de la Plantilla Maestra APA 7.
+
+Si debes migrar la implementación a React, TypeScript u otra arquitectura, hazlo solo cuando aporte una mejora real y asegúrate de conservar las funciones y la lógica APA existentes.
+
+PRIORIDAD ABSOLUTA:
+
+La plantilla debe ser fácil de usar para alguien que no sabe APA, pero también suficientemente estructurada para un estudiante universitario que necesita preparar un trabajo académico completo.

@@ -1,0 +1,160 @@
+{
+  "checks": [
+    {
+      "name": "HTML solo, offline y sin JavaScript: base",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: academico",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: ensayo",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: informe",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: monografia",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: upeu-perfil",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: upeu-tesis-articulo",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: upeu-articulo",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: upeu-revision",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: upeu-revision-articulo",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: upeu-doctoral",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: upeu-tradicional",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: enfermeria",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: ensayo-editorial",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: otro",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: guide",
+      "ok": true
+    },
+    {
+      "name": "HTML solo, offline y sin JavaScript: pack",
+      "ok": true
+    },
+    {
+      "name": "Página independiente descargada, sola y sin JavaScript",
+      "ok": true
+    },
+    {
+      "name": "Dashboard: datos reales, filtro, navegación y accesibilidad",
+      "ok": true
+    },
+    {
+      "name": "Importar DOCX con portada, tablas, imagen, listas y niveles 1–5",
+      "ok": true
+    },
+    {
+      "name": "La portada importada conserva correctamente los campos editables",
+      "ok": true
+    },
+    {
+      "name": "Ribbon y modo concentración no eliminan herramientas ni contenido",
+      "ok": true
+    },
+    {
+      "name": "Buscar texto literal y reemplazar conserva negrita; deshacer restaura",
+      "ok": true
+    },
+    {
+      "name": "DOCX inválido y contenido HTML hostil no dañan el trabajo",
+      "ok": true
+    },
+    {
+      "name": "Importar otro Word crea copia independiente",
+      "ok": true
+    },
+    {
+      "name": "Guardar con selector: escritura del Blob y cancelación sin falso éxito",
+      "ok": true
+    },
+    {
+      "name": "Trece módulos con práctica, respuestas útiles y progreso persistente",
+      "ok": true
+    },
+    {
+      "name": "Meta personal se valida y no se presenta como requisito APA",
+      "ok": true
+    },
+    {
+      "name": "Diagnóstico de descarga y alternativas accesibles",
+      "ok": true
+    },
+    {
+      "name": "Studio móvil: sin desbordamiento ni pérdida de acceso a descargas",
+      "ok": true
+    },
+    {
+      "name": "Importación rechaza ZIP con tamaño declarado abusivo",
+      "ok": true
+    },
+    {
+      "name": "Sin errores JavaScript en Studio",
+      "ok": true
+    }
+  ],
+  "audits": [
+    {
+      "name": "Dashboard Studio",
+      "violations": []
+    },
+    {
+      "name": "Confirmación de importación DOCX",
+      "violations": []
+    },
+    {
+      "name": "Editor con Word importado",
+      "violations": []
+    },
+    {
+      "name": "Guía con prácticas",
+      "violations": []
+    },
+    {
+      "name": "Ayuda de descarga",
+      "violations": []
+    },
+    {
+      "name": "Studio móvil",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "browser": "153.0.8010.12"
+}

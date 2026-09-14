@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Firefox · HTML aislado sin JavaScript · base",
+    "ok": true,
+    "browser": "155.0"
+  },
+  {
+    "name": "Firefox · HTML aislado sin JavaScript · upeu-perfil",
+    "ok": true,
+    "browser": "155.0"
+  },
+  {
+    "name": "Firefox · HTML aislado sin JavaScript · guide",
+    "ok": true,
+    "browser": "155.0"
+  },
+  {
+    "name": "Firefox · editor y exportación de trabajo sin servidor",
+    "ok": true,
+    "browser": "155.0"
+  },
+  {
+    "name": "WebKit · HTML aislado sin JavaScript · base",
+    "ok": true,
+    "browser": "26.6"
+  },
+  {
+    "name": "WebKit · HTML aislado sin JavaScript · upeu-perfil",
+    "ok": true,
+    "browser": "26.6"
+  },
+  {
+    "name": "WebKit · HTML aislado sin JavaScript · guide",
+    "ok": true,
+    "browser": "26.6"
+  },
+  {
+    "name": "WebKit · editor y exportación de trabajo sin servidor",
+    "ok": true,
+    "browser": "26.6"
+  }
+]

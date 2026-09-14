@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Trabajo académico: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Ensayo: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Informe: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Monografía: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Proyecto: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Tesis en formato artículo: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Artículo de investigación: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Revisión bibliográfica básica: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Artículo de revisión: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Proyecto de tesis doctoral: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Tesis tradicional: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Trabajo de Enfermería: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Ensayo para revista Educación: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Otro / documento libre: archivo válido, formato, jerarquía, instrucciones y fuentes",
+    "ok": true
+  },
+  {
+    "name": "Trabajo exportado: última revisión y ningún texto del tutor",
+    "ok": true
+  }
+]

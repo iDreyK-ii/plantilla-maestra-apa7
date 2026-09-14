@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "name": "Sitio público solo contiene HTML, Word y paquete; sin backups ni perfiles",
+      "ok": true
+    },
+    {
+      "name": "Aplicación funciona bajo el prefijo real del repositorio de GitHub Pages",
+      "ok": true
+    },
+    {
+      "name": "17 recursos incorporados descargables en la subruta de publicación",
+      "ok": true
+    },
+    {
+      "name": "Rutas estáticas de plantilla normal, catorce modelos, guía y ZIP responden en subruta",
+      "ok": true
+    },
+    {
+      "name": "Estilos de cuerpo: TNR12, doble espacio, primera línea y sin separación extra",
+      "ok": true
+    },
+    {
+      "name": "Hoja Carta, márgenes de una pulgada y número superior derecho",
+      "ok": true
+    },
+    {
+      "name": "Cinco niveles: alineación y énfasis correctos, niveles 4–5 integrados",
+      "ok": true
+    },
+    {
+      "name": "Cita en bloque y referencia con sangría real y doble espacio",
+      "ok": true
+    },
+    {
+      "name": "Sitio público no expone respaldos, código privado ni perfiles por URL",
+      "ok": true
+    },
+    {
+      "name": "Revisor mantiene límites explícitos: sin certificado automático APA",
+      "ok": true
+    },
+    {
+      "name": "Plantillas y guía sin JavaScript: los 17 recursos se descargan desde la página independiente",
+      "ok": true
+    },
+    {
+      "name": "Sin errores JavaScript en la subruta de despliegue",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

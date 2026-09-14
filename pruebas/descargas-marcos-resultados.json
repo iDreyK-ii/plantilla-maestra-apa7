@@ -1,0 +1,131 @@
+{
+  "checks": [
+    {
+      "name": "Reproducción real del error nativo Cross origin sub frames en Chromium",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta base sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta academico sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta ensayo sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta informe sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta monografia sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta upeu-perfil sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta upeu-tesis-articulo sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta upeu-articulo sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta upeu-revision sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta upeu-revision-articulo sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta upeu-doctoral sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta upeu-tradicional sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta enfermeria sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta ensayo-editorial sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta otro sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta guide sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Marco de otro origen: descarga exacta pack sin selector ni documentos en base de datos",
+      "ok": true
+    },
+    {
+      "name": "Invocación residual del botón antiguo en un marco usa descarga directa, nunca picker",
+      "ok": true
+    },
+    {
+      "name": "Sandbox con allow-downloads conserva descargas nativas y evita selector",
+      "ok": true
+    },
+    {
+      "name": "Sandbox sin allow-downloads no anuncia éxito y ofrece salida cuando popups están permitidos",
+      "ok": true
+    },
+    {
+      "name": "Visor opaco no llama al selector ni pierde el panel de alternativas",
+      "ok": true
+    },
+    {
+      "name": "Sin API de selector: un llamado usa el archivo directo",
+      "ok": true
+    },
+    {
+      "name": "SecurityError del selector en pestaña normal activa alternativa y deshabilita nuevos intentos",
+      "ok": true
+    },
+    {
+      "name": "Cancelar selector no dispara otra descarga; éxito solo después de escribir y cerrar",
+      "ok": true
+    },
+    {
+      "name": "Fallo al escribir aborta el flujo y no informa éxito ni dispara descargas duplicadas",
+      "ok": true
+    },
+    {
+      "name": "Aviso corregido accesible, responsive y explica API presente versus permiso real",
+      "ok": true
+    },
+    {
+      "name": "Firefox: descarga nativa en marco de otro origen",
+      "ok": true
+    },
+    {
+      "name": "WebKit: descarga nativa en marco de otro origen",
+      "ok": true
+    },
+    {
+      "name": "Sin errores JavaScript no controlados",
+      "ok": true
+    }
+  ],
+  "audits": [
+    {
+      "name": "Ayuda de descarga corregida",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

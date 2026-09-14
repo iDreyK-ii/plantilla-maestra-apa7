@@ -1,0 +1,193 @@
+{
+  "notice": "Esta APA general enseña el formato con ejemplos didácticos. No es una tesis ni un trabajo terminado. Sustituye los ejemplos, las indicaciones y los datos entre corchetes antes de entregar. Las secciones son orientativas: APA no impone una estructura única para cualquier tarea. No necesitas usar los cinco niveles de encabezado, tablas o figuras si tu trabajo no los requiere.",
+  "blocks": [
+    {
+      "kind": "instruction",
+      "text": "Introducción: debajo de la portada se repite el título del trabajo. Presenta el tema, su propósito y el alcance. No es obligatorio escribir el encabezado «Introducción»."
+    },
+    {
+      "kind": "paragraph",
+      "text": "[Ejemplo didáctico: Este trabajo describe cómo organizar el tiempo de estudio. Su propósito es presentar una propuesta de planificación y explicar sus componentes. Se aborda la selección de tareas, la consulta de fuentes y la revisión del texto. Adapta este párrafo a tu tema; no describe una investigación realizada.]"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "Desarrollo del tema"
+    },
+    {
+      "kind": "instruction",
+      "text": "Nivel 1: centrado y en negrita. Desarrolla una idea por párrafo, enlaza los argumentos y apóyalos en fuentes que hayas consultado."
+    },
+    {
+      "kind": "paragraph",
+      "text": "[Ejemplo didáctico: Una propuesta de organización puede comenzar con una lista de tareas y un calendario. El siguiente paso es explicar cómo se relaciona cada actividad con el objetivo del trabajo. Sustituye esta explicación por tus argumentos y sus fuentes.]"
+    },
+    {
+      "kind": "heading",
+      "level": 2,
+      "text": "Organización del contenido"
+    },
+    {
+      "kind": "instruction",
+      "text": "Nivel 2: alineado a la izquierda y en negrita. Úsalo para un apartado dentro de la sección anterior. Mantén la misma jerarquía para temas de igual importancia."
+    },
+    {
+      "kind": "heading",
+      "level": 3,
+      "text": "Orden de las ideas"
+    },
+    {
+      "kind": "instruction",
+      "text": "Nivel 3: alineado a la izquierda, en negrita y cursiva. Este ejemplo muestra el estilo, no exige crear una subsección aislada en tu trabajo."
+    },
+    {
+      "kind": "runin",
+      "level": 4,
+      "text": "Primer paso.",
+      "body": " [Ejemplo de nivel 4: encabezado con sangría y negrita, seguido de punto. El párrafo continúa en la misma línea, con texto normal.]"
+    },
+    {
+      "kind": "runin",
+      "level": 5,
+      "text": "Detalle del paso.",
+      "body": " [Ejemplo de nivel 5: encabezado con sangría, negrita y cursiva, seguido de punto. El contenido continúa en la misma línea sin esos énfasis.]"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "Citas en el texto"
+    },
+    {
+      "kind": "instruction",
+      "text": "Parafrasear no elimina la necesidad de citar. Completa los patrones siguientes con una fuente real. Los corchetes no representan autores ni estudios existentes."
+    },
+    {
+      "kind": "paragraph",
+      "text": "[Patrón narrativo: Apellido (año) explica que… / Patrón parentético: Tu paráfrasis de una idea consultada (Apellido, año).]"
+    },
+    {
+      "kind": "paragraph",
+      "text": "[Patrón de cita breve: \"Texto exacto de la fuente\" (Apellido, año, p. número). Con menos de 40 palabras, la cita va integrada en el párrafo y entre comillas dobles. Sustituye este patrón por una cita real de una fuente que hayas leído.]"
+    },
+    {
+      "kind": "quote",
+      "text": "[Ejemplo de estilo para una cita de 40 palabras o más: sustituye esta indicación por el texto exacto de tu fuente, sin comillas. El bloque tiene sangría izquierda de 1,27 cm y doble espacio. Añade autor, año y página u otro localizador verificable. Este texto es una instrucción, no una cita real.]"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "Tablas y figuras, si las necesitas"
+    },
+    {
+      "kind": "paragraph",
+      "text": "[Ejemplo de llamada: La Tabla 1 muestra cómo organizar las actividades. Menciona cada tabla antes de presentarla; adapta su contenido a tu trabajo.]"
+    },
+    {
+      "kind": "table",
+      "number": "Tabla 1",
+      "title": "Ejemplo de organización de actividades",
+      "headers": [
+        "Actividad",
+        "Qué registrar"
+      ],
+      "rows": [
+        [
+          "Lectura",
+          "[Fuente que vas a consultar]"
+        ],
+        [
+          "Redacción",
+          "[Apartado que vas a desarrollar]"
+        ]
+      ],
+      "note": "Nota. Ejemplo didáctico de estructura; no contiene resultados de una investigación."
+    },
+    {
+      "kind": "paragraph",
+      "text": "[Ejemplo de llamada: La Figura 1 resume una secuencia de preparación. Incluye figuras solo cuando aporten información útil.]"
+    },
+    {
+      "kind": "figure",
+      "number": "Figura 1",
+      "title": "Secuencia de preparación de un trabajo",
+      "file": "ejemplo-esquema.png",
+      "alt": "Esquema didáctico: elegir un tema, organizar las fuentes, redactar y revisar",
+      "note": "Nota. Esquema didáctico elaborado para esta plantilla; no presenta datos empíricos."
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "Conclusiones"
+    },
+    {
+      "kind": "paragraph",
+      "text": "[Ejemplo de cierre: La propuesta presentada organiza el trabajo en tres momentos. Su utilidad debe examinarse según el contexto de aplicación. En tu conclusión, responde al propósito con lo desarrollado: no afirmes resultados que no obtuviste ni añadas datos nuevos.]"
+    },
+    {
+      "kind": "heading",
+      "level": 1,
+      "text": "Referencias",
+      "pagebreak": true
+    },
+    {
+      "kind": "instruction",
+      "text": "Empieza las referencias en una página nueva. Incluye solo fuentes citadas, ordenadas alfabéticamente. Los patrones siguientes no son fuentes reales y deben sustituirse. El estilo ya aplica sangría francesa de 1,27 cm y doble espacio."
+    },
+    {
+      "kind": "reference",
+      "before": "[Apellido, A. A. (Año). ",
+      "italic": "Título del libro",
+      "after": ". Editorial.]"
+    },
+    {
+      "kind": "reference",
+      "before": "[Apellido, A. A., & Apellido, B. B. (Año). Título del artículo. ",
+      "italic": "Título de la revista, volumen",
+      "after": "(número), páginas. DOI o URL, si corresponde.]"
+    },
+    {
+      "kind": "instruction",
+      "text": "Antes de entregar: retira estas explicaciones y todos los ejemplos; revisa tus citas, referencias, saltos de página y requisitos del docente o del destino. Un resumen, índice o anexo no es obligatorio en todos los trabajos APA."
+    }
+  ],
+  "families": [
+    {
+      "id": "clase",
+      "label": "Trabajos de clase",
+      "models": [
+        "academico",
+        "ensayo",
+        "informe",
+        "monografia",
+        "otro"
+      ]
+    },
+    {
+      "id": "investigacion",
+      "label": "Tesis y proyectos",
+      "models": [
+        "upeu-perfil",
+        "upeu-tradicional",
+        "upeu-tesis-articulo",
+        "upeu-doctoral"
+      ]
+    },
+    {
+      "id": "publicacion",
+      "label": "Artículos y revisiones",
+      "models": [
+        "upeu-articulo",
+        "upeu-revision",
+        "upeu-revision-articulo",
+        "ensayo-editorial"
+      ]
+    },
+    {
+      "id": "especialidad",
+      "label": "Áreas específicas",
+      "models": [
+        "enfermeria"
+      ]
+    }
+  ]
+}

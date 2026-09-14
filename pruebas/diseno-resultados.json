@@ -1,0 +1,61 @@
+{
+  "checks": [
+    {
+      "name": "Identidad: favicon SVG incorporado, colores rosado bebé y turquesa",
+      "ok": true
+    },
+    {
+      "name": "Ilustración incorporada y visible en escritorio y móvil, sin desbordamiento",
+      "ok": true
+    },
+    {
+      "name": "Animación respeta la preferencia de movimiento reducido",
+      "ok": true
+    },
+    {
+      "name": "Ilustraciones nuevas: 14 iconos vectoriales y marca kawaii incorporada",
+      "ok": true
+    },
+    {
+      "name": "Animación suave activa: ciclo lento y control de pausa accesible",
+      "ok": true
+    },
+    {
+      "name": "Pausar detiene toda la decoración y persiste al recargar y abrir descargas",
+      "ok": true
+    },
+    {
+      "name": "Preferencia del sistema detiene movimiento, incluso después de activarlo",
+      "ok": true
+    },
+    {
+      "name": "Cambiar animación no modifica el contenido académico guardado",
+      "ok": true
+    },
+    {
+      "name": "Sin JavaScript: ilustración estática y ningún control de animación inservible",
+      "ok": true
+    },
+    {
+      "name": "17 archivos: un clic, una descarga exacta, sin redirección, selector ni modal",
+      "ok": true
+    },
+    {
+      "name": "La ayuda y el reintento permanecen disponibles solo cuando se solicitan",
+      "ok": true
+    },
+    {
+      "name": "Dashboard y descargas mantienen accesibilidad WCAG AA automatizada",
+      "ok": true
+    },
+    {
+      "name": "Documento profesional: blanco, TNR 12, doble espacio, sin ilustración en impresión",
+      "ok": true
+    },
+    {
+      "name": "HTML autónomo sin JavaScript: ilustración, favicon y descarga siguen presentes",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Ficha Word conserva anotaciones y conexiones",
+    "ok": true
+  },
+  {
+    "name": "Documento Word excluye ficha y checklist privados",
+    "ok": true
+  },
+  {
+    "name": "Hoja Word indica límites y confirmaciones manuales",
+    "ok": true
+  },
+  {
+    "name": "Ficha: Carta y márgenes de una pulgada",
+    "ok": true
+  },
+  {
+    "name": "Revisión: Carta y márgenes de una pulgada",
+    "ok": true
+  }
+]

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plantilla Maestra APA 7 · Editor Académico</title>
+<style>
+:root{
+  --bg:#eef1f5;--panel:#fff;--paper:#fff;--line:#d9dee8;--text:#20242b;--muted:#687282;
+  --accent:#315efb;--accent-soft:#edf2ff;--success:#168447;--warning:#b46b00;--danger:#bd2c35;
+  --shadow:0 10px 34px rgba(20,30,50,.11);--radius:10px;
+  --apa-font:"Times New Roman",Times,serif;--apa-size:12pt;--apa-line:2;--apa-indent:1.27cm;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer}
+button:disabled{cursor:not-allowed;opacity:.5}
+.app{height:100vh;display:grid;grid-template-rows:auto auto 1fr}
+.topbar{background:var(--panel);border-bottom:1px solid var(--line);padding:9px 14px;display:flex;align-items:center;gap:12px;position:sticky;top:0;z-index:30}
+.brand{font-weight:850;letter-spacing:-.02em;white-space:nowrap}.brand span{color:var(--accent)}
+.docname{min-width:235px;max-width:390px;padding:7px 9px;border:1px solid transparent;border-radius:7px}.docname:focus{outline:none;border-color:var(--accent)}
+.top-actions{display:flex;gap:6px;margin-left:auto;flex-wrap:wrap}.btn{border:1px solid var(--line);background:#fff;color:var(--text);padding:7px 10px;border-radius:7px}.btn:hover{background:#f5f7fa}.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.toolbar{background:var(--panel);border-bottom:1px solid var(--line);padding:7px 10px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;z-index:25}
+.group{display:flex;align-items:center;gap:4px;padding-right:7px;margin-right:3px;border-right:1px solid var(--line)}
+.tool{height:32px;min-width:33px;border:1px solid transparent;background:#fff;border-radius:6px;color:var(--text)}.tool:hover{background:#f1f4f8;border-color:var(--line)}.tool.active{background:var(--accent-soft);color:var(--accent);border-color:#bdcaff}
+.style-select{height:32px;border:1px solid var(--line);background:#fff;border-radius:6px;padding:0 8px;min-width:215px}
+.workspace{display:grid;grid-template-columns:250px minmax(0,1fr) 320px;min-height:0}
+.sidebar,.rightbar{background:#fff;overflow:auto;padding:13px}
+.sidebar{border-right:1px solid var(--line)}.rightbar{border-left:1px solid var(--line)}
+.side-title{text-transform:uppercase;letter-spacing:.08em;font-size:11px;font-weight:800;color:var(--muted);margin:6px 0 9px}
+.outline button{display:block;width:100%;border:0;background:transparent;text-align:left;padding:7px 8px;border-radius:6px;color:#3e4755}.outline button:hover{background:#f2f5f9}.outline .l2{padding-left:22px}.outline .l3{padding-left:36px}.outline .l4{padding-left:50px}.outline .l5{padding-left:64px}
+.quick button{width:100%;margin-bottom:6px}
+.editor-wrap{overflow:auto;padding:26px}
+.page{width:8.5in;min-height:11in;margin:0 auto 28px;background:var(--paper);box-shadow:var(--shadow);padding:1in;position:relative}
+.editor{font-family:var(--apa-font);font-size:var(--apa-size);line-height:var(--apa-line);min-height:9in;outline:none}
+.editor p,.editor h1,.editor h2,.editor h3,.editor h4,.editor h5,.editor blockquote{margin:0}
+.editor p.apa-normal{text-indent:var(--apa-indent);text-align:left}.editor p.apa-noindent{text-indent:0;text-align:left}
+.editor .apa-title{text-align:center;font-weight:700;text-indent:0}.editor .apa-subtitle{text-align:center;text-indent:0}.editor .apa-subtitle1{text-align:left;font-weight:700;text-indent:0}.editor .apa-subtitle2{text-align:left;font-weight:700;font-style:italic;text-indent:0}
+.editor h1{font-size:12pt;text-align:center;font-weight:700}.editor h2{font-size:12pt;text-align:left;font-weight:700}.editor h3{font-size:12pt;text-align:left;font-weight:700;font-style:italic}.editor h4{font-size:12pt;text-align:left;font-weight:700;text-indent:var(--apa-indent)}.editor h5{font-size:12pt;text-align:left;font-weight:700;font-style:italic;text-indent:var(--apa-indent)}
+.editor blockquote{margin-left:var(--apa-indent);margin-right:0;text-indent:0}.editor ul,.editor ol{margin:0;padding-left:1.27cm;line-height:2}
+.editor .reference{padding-left:1.27cm;text-indent:-1.27cm;text-align:left}
+.page-number{position:absolute;right:.5in;top:.5in;font-family:var(--apa-font);font-size:12pt}
+.cover{min-height:9in;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-family:var(--apa-font);font-size:12pt;line-height:2}.cover>*{text-indent:0;margin:0}.cover .cover-title{font-weight:700;margin-bottom:2em}
+.card{border:1px solid var(--line);border-radius:var(--radius);padding:12px;margin-bottom:11px;background:#fff}.card h3{margin:0 0 7px;font-size:14px}.card p{margin:5px 0;font-size:12px;line-height:1.5;color:#4d5867}
+.kpi{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid #edf0f4;font-size:12px}.kpi:last-child{border-bottom:0}.ok{color:var(--success)}.warn{color:var(--warning)}.bad{color:var(--danger)}
+.help{font-size:12px;line-height:1.5;color:var(--muted)}
+.table-wrap,.figure-wrap{margin:12px 0;line-height:1.5}.table-label,.figure-label{font-weight:700;text-indent:0}.table-title,.figure-title{font-style:italic;text-indent:0}.table-note,.figure-note{font-size:11pt;text-indent:0}
+.editor table{border-collapse:collapse;width:100%;font-size:11pt}.editor th,.editor td{padding:6px 8px;text-align:left;vertical-align:top;border-top:1px solid #222;border-bottom:1px solid #222}.editor tr:first-child th,.editor tr:first-child td{border-top:2px solid #222}.editor .cell-tools{display:none}
+.figure-placeholder{border:1px dashed #9ca7b7;padding:18px;text-align:center;color:#677282}
+.modal{display:none;position:fixed;inset:0;background:rgba(20,25,35,.48);z-index:100;align-items:center;justify-content:center}.modal.open{display:flex}
+.modal-box{width:min(780px,94vw);max-height:90vh;overflow:auto;background:#fff;border-radius:12px;box-shadow:0 24px 80px rgba(0,0,0,.25);padding:20px}.modal-box h2{margin-top:0}.close{float:right;background:none;border:0;font-size:24px}
+.tabs{display:flex;gap:5px;border-bottom:1px solid var(--line);margin-bottom:13px}.tab{border:0;background:none;padding:8px 10px;border-bottom:2px solid transparent}.tab.active{border-bottom-color:var(--accent);color:var(--accent);font-weight:700}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:9px}.field{display:flex;flex-direction:column;gap:4px}.field.full{grid-column:1/-1}.field label{font-size:12px;font-weight:700}.field input,.field textarea,.field select{border:1px solid var(--line);border-radius:7px;padding:7px}.field textarea{min-height:95px;resize:vertical}
+.guide-step{border:1px solid var(--line);border-radius:8px;padding:10px;margin:8px 0}.guide-step strong{display:block;margin-bottom:4px}
+.check-item{display:flex;gap:7px;align-items:flex-start;padding:7px 0;border-bottom:1px solid #edf0f4;font-size:12px}.dot{width:9px;height:9px;border-radius:50%;margin-top:4px;flex:0 0 9px}.dot.ok{background:var(--success)}.dot.warn{background:var(--warning)}.dot.bad{background:var(--danger)}
+.toast{position:fixed;bottom:14px;left:50%;transform:translate(-50%,10px);background:#20242b;color:#fff;padding:7px 12px;border-radius:999px;font-size:12px;opacity:0;pointer-events:none;transition:.2s;z-index:150}.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:1180px){.workspace{grid-template-columns:220px minmax(0,1fr)}.rightbar{display:none}}
+@media(max-width:780px){.workspace{grid-template-columns:1fr}.sidebar{display:none}.editor-wrap{padding:10px}.top-actions .optional{display:none}.toolbar{overflow:auto;flex-wrap:nowrap}.page{margin-left:0;margin-right:20px}}
+@media print{
+  html,body{background:#fff}.topbar,.toolbar,.sidebar,.rightbar,.toast{display:none!important}.workspace{display:block}.editor-wrap{padding:0;overflow:visible}.page{box-shadow:none;margin:0;width:8.5in;min-height:11in;page-break-after:always;padding:1in}.page:last-child{page-break-after:auto}
+  @page{size:Letter;margin:0}
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div class="brand">Plantilla <span>Maestra APA 7</span></div>
+    <input id="docName" class="docname" value="Documento académico" aria-label="Nombre del documento">
+    <div class="top-actions">
+      <button class="btn" onclick="newDocument()">Nuevo</button>
+      <button class="btn" onclick="saveDocument()">Guardar</button>
+      <button class="btn" onclick="openGuide()">Aprende APA</button>
+      <button class="btn" onclick="runChecker()">Revisar APA</button>
+      <button class="btn" onclick="exportHTML()">Exportar HTML</button>
+      <button class="btn primary" onclick="window.print()">Imprimir / PDF</button>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="group">
+      <select id="styleSelect" class="style-select" onchange="applyStyle(this.value)">
+        <option value="">Aplicar estilo APA…</option>
+        <option value="apa-normal">Texto normal — Párrafo APA</option>
+        <option value="apa-noindent">Texto sin sangría</option>
+        <option value="apa-title">Título</option>
+        <option value="apa-subtitle">Subtítulo</option>
+        <option value="apa-subtitle1">Subtítulo 1</option>
+        <option value="apa-subtitle2">Subtítulo 2</option>
+        <option value="h1">Encabezado APA — Nivel 1</option>
+        <option value="h2">Encabezado APA — Nivel 2</option>
+        <option value="h3">Encabezado APA — Nivel 3</option>
+        <option value="h4">Encabezado APA — Nivel 4</option>
+        <option value="h5">Encabezado APA — Nivel 5</option>
+        <option value="reference">Referencia APA</option>
+      </select>
+    </div>
+    <div class="group">
+      <button class="tool" onclick="cmd('bold')" title="Negrita"><b>B</b></button>
+      <button class="tool" onclick="cmd('italic')" title="Cursiva"><i>I</i></button>
+      <button class="tool" onclick="cmd('underline')" title="Subrayado"><u>U</u></button>
+    </div>
+    <div class="group">
+      <button class="tool" onclick="cmd('justifyLeft')" title="Izquierda">≡</button>
+      <button class="tool" onclick="cmd('justifyCenter')" title="Centrar">≡</button>
+      <button class="tool" onclick="cmd('justifyRight')" title="Derecha">≡</button>
+      <button class="tool" onclick="cmd('justifyFull')" title="Justificar">☰</button>
+    </div>
+    <div class="group">
+      <button class="tool" onclick="cmd('insertUnorderedList')" title="Viñetas">•</button>
+      <button class="tool" onclick="cmd('insertOrderedList')" title="Numerada">1.</button>
+      <button class="tool" onclick="applyStyle('blockquote')" title="Cita larga">❝</button>
+    </div>
+    <div class="group">
+      <button class="tool" onclick="insertApaTable()">＋ Tabla APA</button>
+      <button class="tool" onclick="insertFigure()">＋ Figura APA</button>
+      <button class="tool" onclick="insertCitation()">＋ Cita</button>
+      <button class="tool" onclick="openReferenceManager()">＋ Referencia</button>
+    </div>
+    <div class="group">
+      <button class="tool" onclick="openNewDocWizard()">＋ Crear trabajo</button>
+      <button class="tool" onclick="openSettings()">Configuración</button>
+    </div>
+  </div>
+
+  <main class="workspace">
+    <aside class="sidebar">
+      <div class="side-title">Estructura del documento</div>
+      <div id="outline" class="outline"><p class="help">Los encabezados aparecerán aquí.</p></div>
+      <div class="side-title">Acciones rápidas</div>
+      <div class="quick">
+        <button class="btn" onclick="insertHeading(1)">+ Encabezado 1</button>
+        <button class="btn" onclick="insertHeading(2)">+ Encabezado 2</button>
+        <button class="btn" onclick="insertParagraph()">+ Párrafo APA</button>
+        <button class="btn" onclick="insertApaTable()">+ Tabla APA</button>
+        <button class="btn" onclick="insertFigure()">+ Figura APA</button>
+        <button class="btn" onclick="openReferenceManager()">+ Referencia</button>
+        <button class="btn" onclick="generateTOC()">+ Índice</button>
+      </div>
+      <div class="side-title">Documentos</div>
+      <div class="quick">
+        <button class="btn" onclick="duplicateDocument()">Duplicar actual</button>
+        <button class="btn" onclick="clearSavedDocument()">Eliminar guardado local</button>
+      </div>
+    </aside>
+
+    <section class="editor-wrap">
+      <div class="page">
+        <div class="page-number">1</div>
+        <div id="editor" class="editor" contenteditable="true" spellcheck="true">
+          <div class="cover" id="cover">
+            <div class="cover-title">Título del trabajo académico</div>
+            <p>Nombre del estudiante</p><p>Institución / Universidad</p><p>Facultad o Escuela Profesional</p><p>Asignatura</p><p>Docente</p><p>Fecha</p>
+          </div>
+          <h1>Introducción</h1>
+          <p class="apa-normal">Escribe aquí el contenido de tu trabajo. Este es el texto normal de la Plantilla Maestra APA: Times New Roman 12, interlineado doble y sangría de primera línea de 1,27 cm.</p>
+          <h2>Subtema</h2>
+          <p class="apa-normal">Utiliza la barra de estilos para aplicar el formato correspondiente con un solo clic. También puedes utilizar el panel lateral para organizar la estructura del documento.</p>
+          <h1>Referencias</h1>
+          <p class="reference">Autor, A. A. (2026). <i>Título de la obra</i>. Editorial.</p>
+        </div>
+      </div>
+    </section>
+
+    <aside class="rightbar">
+      <div class="card">
+        <h3>Configuración APA activa</h3>
+        <div class="kpi"><span>Papel</span><b>Carta</b></div>
+        <div class="kpi"><span>Márgenes</span><b>2,54 cm</b></div>
+        <div class="kpi"><span>Fuente</span><b>Times New Roman 12</b></div>
+        <div class="kpi"><span>Interlineado</span><b>Doble</b></div>
+        <div class="kpi"><span>Párrafo</span><b>1,27 cm</b></div>
+        <div class="kpi"><span>Referencias</span><b>Francesa 1,27 cm</b></div>
+      </div>
+      <div class="card">
+        <h3>Guía rápida</h3>
+        <p><b>Texto normal:</b> aplica “Párrafo APA”.</p>
+        <p><b>Títulos:</b> usa los niveles APA; no simules sangrías con espacios.</p>
+        <p><b>Tablas:</b> pulsa “Tabla APA” y edita las celdas.</p>
+        <p><b>Referencias:</b> usa el gestor y la sangría francesa.</p>
+      </div>
+      <div class="card">
+        <h3>Revisión APA</h3>
+        <div id="checkerSummary"><p class="help">Pulsa “Revisar APA” para analizar el documento actual.</p></div>
+      </div>
+    </aside>
+  </main>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<div id="guideModal" class="modal">
+<div class="modal-box">
+<button class="close" onclick="closeModal('guideModal')">×</button>
+<div class="tabs"><button class="tab active" onclick="showGuideTab('learn',this)">Aprende APA</button><button class="tab" onclick="showGuideTab('checklist',this)">Antes de entregar</button></div>
+<div id="guide-learn">
+<h2>Aprende APA 7.ª edición desde cero</h2>
+<div class="guide-step"><strong>1. Empieza con la configuración</strong>La plantilla ya parte de papel Carta, márgenes de 2,54 cm, Times New Roman 12 e interlineado doble.</div>
+<div class="guide-step"><strong>2. Completa la portada</strong>Usa Configuración para introducir título, estudiante, institución, asignatura, docente y fecha.</div>
+<div class="guide-step"><strong>3. Escribe el cuerpo</strong>Para un párrafo normal utiliza “Texto normal — Párrafo APA”. La sangría de primera línea se aplica automáticamente.</div>
+<div class="guide-step"><strong>4. Organiza las secciones</strong>Usa Nivel 1 para las secciones principales y niveles 2–5 para subdivisiones.</div>
+<div class="guide-step"><strong>5. Inserta tablas</strong>Pulsa “Tabla APA”. Edita número, título, encabezados, datos y nota.</div>
+<div class="guide-step"><strong>6. Citas</strong>Inserta una cita y completa autor, año y página cuando corresponda.</div>
+<div class="guide-step"><strong>7. Referencias</strong>Registra las fuentes y utiliza el gestor para insertar referencias con sangría francesa.</div>
+<div class="guide-step"><strong>8. Revisa</strong>Pulsa “Revisar APA” para detectar aspectos de formato que necesitan atención.</div>
+<div class="guide-step"><strong>9. Exporta</strong>Imprime o genera PDF desde el navegador; la vista de edición y los controles no aparecen en la impresión.</div>
+</div>
+<div id="guide-checklist" style="display:none">
+<h2>Lista final antes de entregar</h2>
+<div class="check-item"><span class="dot ok"></span><div>¿El documento utiliza papel Carta y márgenes de 2,54 cm?</div></div>
+<div class="check-item"><span class="dot ok"></span><div>¿La fuente y el tamaño son consistentes?</div></div>
+<div class="check-item"><span class="dot ok"></span><div>¿El texto normal tiene interlineado doble y sangría de primera línea?</div></div>
+<div class="check-item"><span class="dot ok"></span><div>¿Los encabezados siguen una jerarquía coherente?</div></div>
+<div class="check-item"><span class="dot ok"></span><div>¿Las tablas y figuras tienen identificación y título?</div></div>
+<div class="check-item"><span class="dot ok"></span><div>¿Las referencias tienen sangría francesa?</div></div>
+<div class="check-item"><span class="dot ok"></span><div>¿Se revisaron citas y referencias entre sí?</div></div>
+<div class="check-item"><span class="dot warn"></span><div>¿Las reglas institucionales del curso requieren algo adicional a APA? Verifícalo antes de entregar.</div></div>
+</div>
+</div></div>
+
+<div id="settingsModal" class="modal">
+<div class="modal-box">
+<button class="close" onclick="closeModal('settingsModal')">×</button>
+<h2>Configuración de portada y documento</h2>
+<div class="form-grid">
+<div class="field full"><label>Nombre del documento</label><input id="setDocName"></div>
+<div class="field full"><label>Título</label><input id="setTitle"></div>
+<div class="field"><label>Estudiante</label><input id="setAuthor"></div>
+<div class="field"><label>Institución</label><input id="setInstitution"></div>
+<div class="field"><label>Facultad / Escuela</label><input id="setSchool"></div>
+<div class="field"><label>Asignatura</label><input id="setCourse"></div>
+<div class="field"><label>Docente</label><input id="setProfessor"></div>
+<div class="field"><label>Fecha</label><input id="setDate"></div>
+</div>
+<div style="margin-top:12px;display:flex;gap:7px"><button class="btn primary" onclick="applyCoverSettings()">Aplicar</button><button class="btn" onclick="closeModal('settingsModal')">Cancelar</button></div>
+</div></div>
+
+<div id="wizardModal" class="modal">
+<div class="modal-box">
+<button class="close" onclick="closeModal('wizardModal')">×</button>
+<h2>Crear trabajo APA desde cero</h2>
+<div class="form-grid">
+<div class="field"><label>Tipo de trabajo</label><select id="wizType"><option>Trabajo académico</option><option>Ensayo</option><option>Informe</option><option>Monografía</option><option>Proyecto de investigación</option></select></div>
+<div class="field"><label>¿Incluir portada?</label><select id="wizCover"><option value="yes">Sí</option><option value="no">No</option></select></div>
+<div class="field full"><label>Secciones iniciales</label><textarea id="wizSections">Introducción
+Definición
+Desarrollo
+Conclusiones
+Referencias</textarea></div>
+</div>
+<p class="help">Puedes modificar la estructura después de crear el documento.</p>
+<button class="btn primary" onclick="createFromWizard()">Crear documento</button>
+</div></div>
+
+<div id="refModal" class="modal">
+<div class="modal-box">
+<button class="close" onclick="closeModal('refModal')">×</button>
+<h2>Gestor de referencias APA</h2>
+<div class="form-grid">
+<div class="field"><label>Tipo</label><select id="refType"><option>Libro</option><option>Artículo</option><option>Página web</option><option>Documento</option><option>Otro</option></select></div>
+<div class="field"><label>Año</label><input id="refYear" value="2026"></div>
+<div class="field full"><label>Autor / autores</label><input id="refAuthor" placeholder="Apellido, A. A."></div>
+<div class="field full"><label>Título</label><input id="refTitle"></div>
+<div class="field"><label>Fuente / revista / editorial</label><input id="refSource"></div>
+<div class="field"><label>DOI / URL</label><input id="refUrl"></div>
+</div>
+<div style="margin-top:12px;display:flex;gap:7px"><button class="btn primary" onclick="addReference()">Guardar e insertar</button><button class="btn" onclick="closeModal('refModal')">Cancelar</button></div>
+<div id="refList" style="margin-top:14px"></div>
+</div></div>
+
+<script>
+const STORAGE='pma7-v2-state';
+let savedRange=null, refs=[];
+
+const $=id=>document.getElementById(id);
+const editor=$('editor');
+
+function toast(msg){const t=$('toast');t.textContent=msg;t.classList.add('show');clearTimeout(window.__toast);window.__toast=setTimeout(()=>t.classList.remove('show'),1400)}
+function rememberSelection(){
+  const s=window.getSelection();
+  if(s&&s.rangeCount&&editor.contains(s.anchorNode)) savedRange=s.getRangeAt(0).cloneRange();
+}
+editor.addEventListener('keyup',rememberSelection);editor.addEventListener('mouseup',rememberSelection);editor.addEventListener('input',()=>{saveState();updateOutline();});
+function restoreSelection(){if(savedRange){const s=window.getSelection();s.removeAllRanges();s.addRange(savedRange)}}
+function cmd(c,v=null){restoreSelection();document.execCommand(c,false,v);saveState()}
+function closestBlock(node){
+  if(!node)return null;if(node.nodeType===3)node=node.parentElement;
+  while(node&&node!==editor){if(['P','DIV','H1','H2','H3','H4','H5','BLOCKQUOTE'].includes(node.tagName))return node;node=node.parentElement}return null;
+}
+function applyStyle(style){
+  restoreSelection();
+  const block=closestBlock(window.getSelection().anchorNode);
+  if(!block)return;
+  if(style==='blockquote'){document.execCommand('formatBlock',false,'blockquote');saveState();return}
+  const tags={h1:'H1',h2:'H2',h3:'H3',h4:'H4',h5:'H5','apa-title':'DIV','apa-subtitle':'DIV','apa-subtitle1':'DIV','apa-subtitle2':'DIV','apa-normal':'P','apa-noindent':'P',reference:'P'};
+  const n=document.createElement(tags[style]||'P');n.innerHTML=block.innerHTML;n.className=style;block.replaceWith(n);
+  $('styleSelect').value='';saveState();updateOutline();toast('Estilo aplicado');
+}
+function insertAtCursor(html){
+  restoreSelection();
+  if(!savedRange){editor.insertAdjacentHTML('beforeend',html);saveState();return}
+  const r=savedRange;r.deleteContents();const tmp=document.createElement('div');tmp.innerHTML=html;const f=document.createDocumentFragment();while(tmp.firstChild)f.appendChild(tmp.firstChild);r.insertNode(f);r.collapse(false);savedRange=r.cloneRange();saveState();updateOutline();
+}
+function insertParagraph(){insertAtCursor('<p class="apa-normal">Nuevo párrafo académico.</p>')}
+function insertHeading(l){insertAtCursor(`<h${l}>Nuevo encabezado</h${l}>`)}
+function insertApaTable(){
+  const n=editor.querySelectorAll('.table-wrap').length+1;
+  insertAtCursor(`<div class="table-wrap"><div class="table-label">Tabla ${n}</div><div class="table-title">Título de la tabla</div><table><tr><th contenteditable="true">Encabezado 1</th><th contenteditable="true">Encabezado 2</th><th contenteditable="true">Encabezado 3</th></tr><tr><td contenteditable="true">Dato</td><td contenteditable="true">Dato</td><td contenteditable="true">Dato</td></tr><tr><td contenteditable="true">Dato</td><td contenteditable="true">Dato</td><td contenteditable="true">Dato</td></tr></table><div class="table-note">Nota. Edite esta nota según corresponda.</div></div>`);
+}
+function insertFigure(){
+  const n=editor.querySelectorAll('.figure-wrap').length+1;
+  insertAtCursor(`<div class="figure-wrap"><div class="figure-label">Figura ${n}</div><div class="figure-title">Título de la figura</div><div class="figure-placeholder">Inserte una imagen aquí o reemplace este bloque con el contenido de la figura.</div><div class="figure-note">Nota. Descripción o fuente.</div></div>`);
+}
+function insertCitation(){insertAtCursor('<span class="citation">(Autor, 2026)</span>');toast('Cita insertada')}
+function openReferenceManager(){renderRefs();$('refModal').classList.add('open')}
+function addReference(){
+  const r={type:$('refType').value,year:$('refYear').value||'s. f.',author:$('refAuthor').value||'Autor, A. A.',title:$('refTitle').value||'Título de la obra',source:$('refSource').value,doi:$('refUrl').value};
+  refs.push(r);insertReferenceFrom(r);renderRefs();saveState();closeModal('refModal');toast('Referencia insertada');
+}
+function referenceText(r){
+  let t=`${r.author} (${r.year}). <i>${r.title}</i>.`;
+  if(r.source)t+=` ${r.source}.`;
+  if(r.doi)t+=` ${r.doi}`;
+  return t;
+}
+function insertReferenceFrom(r){insertAtCursor(`<p class="reference">${referenceText(r)}</p>`)}
+function renderRefs(){
+  const box=$('refList');box.innerHTML='';
+  if(!refs.length){box.innerHTML='<p class="help">Aún no hay referencias guardadas en este documento.</p>';return}
+  refs.forEach((r,i)=>{const d=document.createElement('div');d.className='guide-step';d.innerHTML=`<strong>${i+1}. ${esc(r.author)}</strong>${referenceText(r)}<div style="margin-top:6px"><button class="btn" onclick="insertReferenceFrom(refs[${i}])">Insertar otra vez</button></div>`;box.appendChild(d)})
+}
+function updateOutline(){
+  const out=$('outline');out.innerHTML='';const hs=editor.querySelectorAll('h1,h2,h3,h4,h5');
+  if(!hs.length){out.innerHTML='<p class="help">Los encabezados aparecerán aquí.</p>';return}
+  hs.forEach((h,i)=>{if(!h.id)h.id='h-'+Date.now()+'-'+i;const b=document.createElement('button');b.className='l'+h.tagName.substring(1);b.textContent=h.textContent.trim()||'Sin título';b.onclick=()=>h.scrollIntoView({behavior:'smooth',block:'center'});out.appendChild(b)})
+}
+function generateTOC(){
+  const hs=[...editor.querySelectorAll('h1,h2,h3')];const text=hs.map(h=>`${'  '.repeat(Number(h.tagName.substring(1))-1)}${h.textContent.trim()}`).join('\n');
+  const area=document.createElement('textarea');area.value=text;area.style.position='fixed';area.style.left='50%';area.style.top='20%';area.style.width='420px';area.style.height='260px';area.style.zIndex='180';document.body.appendChild(area);area.select();document.execCommand('copy');area.remove();toast('Esquema de índice copiado al portapapeles');
+}
+function openGuide(){$('guideModal').classList.add('open')}
+function showGuideTab(id,btn){document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));btn.classList.add('active');$('guide-learn').style.display=id==='learn'?'block':'none';$('guide-checklist').style.display=id==='checklist'?'block':'none'}
+function closeModal(id){$(id).classList.remove('open')}
+function openSettings(){
+  const c=editor.querySelector('.cover');
+  $('setDocName').value=$('docName').value;
+  const vals=c?[...c.querySelectorAll('p')].map(x=>x.textContent):[];
+  $('setTitle').value=c?.querySelector('.cover-title')?.textContent||'';
+  $('setAuthor').value=vals[0]||'';$('setInstitution').value=vals[1]||'';$('setSchool').value=vals[2]||'';$('setCourse').value=vals[3]||'';$('setProfessor').value=vals[4]||'';$('setDate').value=vals[5]||'';
+  $('settingsModal').classList.add('open');
+}
+function applyCoverSettings(){
+  const c=editor.querySelector('.cover');
+  if(c)c.innerHTML=`<div class="cover-title">${esc($('setTitle').value||'Título del trabajo académico')}</div><p>${esc($('setAuthor').value)}</p><p>${esc($('setInstitution').value)}</p><p>${esc($('setSchool').value)}</p><p>${esc($('setCourse').value)}</p><p>${esc($('setProfessor').value)}</p><p>${esc($('setDate').value)}</p>`;
+  $('docName').value=$('setDocName').value||'Documento académico';saveState();closeModal('settingsModal');toast('Portada actualizada');
+}
+function openNewDocWizard(){$('wizardModal').classList.add('open')}
+function createFromWizard(){
+  const include=$('wizCover').value==='yes',sections=$('wizSections').value.split('\n').map(x=>x.trim()).filter(Boolean);
+  let out=include?'<div class="cover"><div class="cover-title">Título del trabajo académico</div><p>Nombre del estudiante</p><p>Institución / Universidad</p><p>Facultad / Escuela Profesional</p><p>Asignatura</p><p>Docente</p><p>Fecha</p></div>':'';
+  sections.forEach((s,i)=>{out+=`<h1>${esc(s)}</h1><p class="apa-normal">Escribe aquí el contenido correspondiente a ${esc(s.toLowerCase())}.</p>`});
+  editor.innerHTML=out;$('docName').value='Nuevo trabajo APA';saveState();updateOutline();closeModal('wizardModal');toast('Trabajo creado');
+}
+function newDocument(){
+  if(!confirm('¿Crear un documento nuevo y reemplazar el contenido actual?'))return;
+  editor.innerHTML='<div class="cover"><div class="cover-title">Título del trabajo académico</div><p>Nombre del estudiante</p><p>Institución / Universidad</p><p>Facultad / Escuela Profesional</p><p>Asignatura</p><p>Docente</p><p>Fecha</p></div><h1>Introducción</h1><p class="apa-normal">Escribe aquí el contenido de tu trabajo.</p>';
+  $('docName').value='Documento académico';refs=[];saveState();updateOutline();
+}
+function duplicateDocument(){
+  const name=$('docName').value||'Documento académico';$('docName').value=name+' — copia';saveState();toast('Documento duplicado localmente');
+}
+function clearSavedDocument(){if(confirm('¿Eliminar la copia guardada localmente?')){localStorage.removeItem(STORAGE);toast('Guardado local eliminado')}}
+function state(){return{name:$('docName').value,html:editor.innerHTML,refs,updated:new Date().toISOString()}}
+function saveState(){try{localStorage.setItem(STORAGE,JSON.stringify(state()));}catch(e){}}
+function saveDocument(){saveState();toast('Documento guardado')}
+function loadState(){
+  try{const d=JSON.parse(localStorage.getItem(STORAGE));if(d){$('docName').value=d.name||'Documento académico';editor.innerHTML=d.html||editor.innerHTML;refs=Array.isArray(d.refs)?d.refs:[];}}catch(e){}
+  updateOutline();
+}
+function esc(s){return String(s??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+function exportHTML(){
+  const clone=document.documentElement.cloneNode(true);
+  clone.querySelectorAll('.topbar,.toolbar,.sidebar,.rightbar,.toast,.modal').forEach(x=>x.remove());
+  const blob=new Blob(['<!DOCTYPE html>'+clone.outerHTML],{type:'text/html;charset=utf-8'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=($('docName').value||'documento-apa')+'.html';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),500);
+}
+function runChecker(){
+  const results=[];const styles=getComputedStyle(editor);
+  const normal=editor.querySelector('p.apa-normal');const refsN=editor.querySelectorAll('.reference').length;const refs=editor.querySelectorAll('.reference');
+  results.push({ok:styles.fontFamily.toLowerCase().includes('times'),label:'Fuente global compatible con Times New Roman'});
+  results.push({ok:Math.round(parseFloat(styles.fontSize))===12,label:'Tamaño base de 12 pt'});
+  results.push({ok:parseFloat(styles.lineHeight)>=2||styles.lineHeight==='normal',label:'Interlineado del editor configurado'});
+  results.push({ok:!!normal&&Math.abs(parseFloat(getComputedStyle(normal).textIndent))>0,label:'Párrafo APA con sangría de primera línea'});
+  results.push({ok:[...refs].every(r=>Math.abs(parseFloat(getComputedStyle(r).textIndent))>0),label:'Referencias con sangría francesa'});
+  results.push({ok:editor.querySelectorAll('table').length===0||editor.querySelectorAll('.table-label').length>=editor.querySelectorAll('table').length,label:'Tablas identificadas con número'});
+  results.push({ok:editor.querySelectorAll('figure,.figure-wrap').length===0||editor.querySelectorAll('.figure-label').length>=editor.querySelectorAll('.figure-wrap').length,label:'Figuras identificadas con número'});
+  const box=$('checkerSummary');box.innerHTML='';
+  results.forEach(r=>{const d=document.createElement('div');d.className='check-item';d.innerHTML=`<span class="dot ${r.ok?'ok':'warn'}"></span><div>${r.ok?'Correcto':'Revisar'} — ${r.label}</div>`;box.appendChild(d)});
+  const bad=results.filter(r=>!r.ok).length;const p=document.createElement('p');p.innerHTML=bad?`<b class="warn">${bad} aspecto(s) requieren revisión.</b>`:'<b class="ok">No se detectaron problemas básicos en esta revisión.</b>';box.prepend(p);toast('Revisión completada');
+}
+window.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='s'){e.preventDefault();saveDocument()}});
+window.addEventListener('beforeunload',saveState);
+loadState();
+</script>
+</body>
+</html>

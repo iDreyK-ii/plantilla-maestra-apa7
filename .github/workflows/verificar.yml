@@ -1,0 +1,53 @@
+name: Verificar editor, APA y descargas
+on:
+  pull_request:
+  workflow_dispatch:
+  workflow_call:
+permissions:
+  contents: read
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: requirements-build.txt
+      - run: python -m pip install -r requirements-build.txt
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium firefox webkit
+      - run: npm run build
+      - name: Iniciar sitio estático para las pruebas
+        run: |
+          python -m http.server 3000 --bind 0.0.0.0 > /tmp/apa7-server.log 2>&1 &
+          for i in $(seq 1 20); do
+            if curl --fail --silent http://localhost:3000/ >/dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/apa7-server.log
+          exit 1
+      - run: npm run test:all
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: resultados-apa7
+          path: |
+            pruebas/*resultados.json
+            pruebas/resultados.json
+            pruebas/avanzadas.json
+            pruebas/word-estructura.json
+            pruebas/html-publico.json
+            pruebas/accesibilidad.json
+      - run: npm run build:pages
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sitio-publicable
+          path: dist/
+          include-hidden-files: true

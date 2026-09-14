@@ -1,0 +1,263 @@
+{
+  "results": [
+    {
+      "name": "Catálogo accesible desde inicio, 14 modelos y siete UPeU",
+      "ok": true
+    },
+    {
+      "name": "Búsqueda, filtro UPeU y modelo condicionado explícito",
+      "ok": true
+    },
+    {
+      "name": "Procedencia, fuente primaria, exclusión APA 6 y advertencia A4",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: academico",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: ensayo",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: informe",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: monografia",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: upeu-perfil",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: upeu-tesis-articulo",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: upeu-articulo",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: upeu-revision",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: upeu-revision-articulo",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: upeu-doctoral",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: upeu-tradicional",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: enfermeria",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: ensayo-editorial",
+      "ok": true
+    },
+    {
+      "name": "Word precompilado exacto y sin impresión: otro",
+      "ok": true
+    },
+    {
+      "name": "Asistente conserva cinco pasos y exige reconocer la adaptación UPeU",
+      "ok": true
+    },
+    {
+      "name": "Guía por apartado, preguntas y ejemplos fuera de la hoja",
+      "ok": true
+    },
+    {
+      "name": "Checklist, modelo, fuente y revisión se guardan y recuperan",
+      "ok": true
+    },
+    {
+      "name": "Revisor específico: no exige conclusiones a un proyecto",
+      "ok": true
+    },
+    {
+      "name": "Cambiar de modelo crea otro documento sin borrar el anterior",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: academico",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: ensayo",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: informe",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: monografia",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: upeu-perfil",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: upeu-tesis-articulo",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: upeu-articulo",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: upeu-revision",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: upeu-revision-articulo",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: upeu-doctoral",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: upeu-tradicional",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: enfermeria",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: ensayo-editorial",
+      "ok": true
+    },
+    {
+      "name": "Crear y guiar estructura editable: otro",
+      "ok": true
+    },
+    {
+      "name": "Indicaciones optativas detectadas y eliminadas al reemplazar contenido",
+      "ok": true
+    },
+    {
+      "name": "Preparación anticipada de Word y exportación del último texto, nunca caché obsoleta",
+      "ok": true
+    },
+    {
+      "name": "Exportación limpia con fuente en metadatos, no guía visible",
+      "ok": true
+    },
+    {
+      "name": "Biblioteca y asistente a 360, 768 y 1440 px sin desbordamiento horizontal",
+      "ok": true
+    },
+    {
+      "name": "Todos los modelos tienen guías útiles y fuentes declaradas sin requisitos APA falsos",
+      "ok": true
+    },
+    {
+      "name": "Archivo autónomo offline permite descargar modelos sin servidor",
+      "ok": true
+    },
+    {
+      "name": "Visor restringido: no afirma una descarga que no puede realizar",
+      "ok": true
+    },
+    {
+      "name": "Cero errores JavaScript y cero solicitudes externas automáticas",
+      "ok": true
+    }
+  ],
+  "audits": [
+    {
+      "name": "Biblioteca de modelos",
+      "violations": []
+    },
+    {
+      "name": "Detalle del perfil UPeU",
+      "violations": []
+    },
+    {
+      "name": "Estructura jerárquica del asistente",
+      "violations": []
+    },
+    {
+      "name": "Guía del apartado",
+      "violations": []
+    },
+    {
+      "name": "Biblioteca móvil",
+      "violations": []
+    }
+  ],
+  "timings": [
+    {
+      "id": "academico",
+      "milliseconds": 164
+    },
+    {
+      "id": "ensayo",
+      "milliseconds": 161
+    },
+    {
+      "id": "informe",
+      "milliseconds": 171
+    },
+    {
+      "id": "monografia",
+      "milliseconds": 159
+    },
+    {
+      "id": "upeu-perfil",
+      "milliseconds": 148
+    },
+    {
+      "id": "upeu-tesis-articulo",
+      "milliseconds": 159
+    },
+    {
+      "id": "upeu-articulo",
+      "milliseconds": 140
+    },
+    {
+      "id": "upeu-revision",
+      "milliseconds": 80
+    },
+    {
+      "id": "upeu-revision-articulo",
+      "milliseconds": 168
+    },
+    {
+      "id": "upeu-doctoral",
+      "milliseconds": 152
+    },
+    {
+      "id": "upeu-tradicional",
+      "milliseconds": 171
+    },
+    {
+      "id": "enfermeria",
+      "milliseconds": 161
+    },
+    {
+      "id": "ensayo-editorial",
+      "milliseconds": 153
+    },
+    {
+      "id": "otro",
+      "milliseconds": 154
+    }
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "browser": "153.0.8010.12"
+}

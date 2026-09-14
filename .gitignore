@@ -1,0 +1,64 @@
+# Dependencias, entornos y resultados temporales
+node_modules/
+.venv/
+.cache/
+.npm/
+.local/
+__pycache__/
+*.pyc
+dist/
+build/
+coverage/
+.DS_Store
+.sudo_as_admin_successful
+# Secretos y configuración privada
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.netrc
+.git-credentials
+# Los respaldos integrales no son material para un repositorio público
+Respaldo_*.zip
+RESPALDO_COMPLETO*.md
+respaldo/
+respaldo_*/
+Plantilla_Maestra_APA7_Proyecto.zip
+# Adjuntos y capturas crudas: no publicar ni volver a acumular
+uploads/
+investigacion/*.html
+# Se versionan scripts de pruebas, no perfiles ni documentos del navegador
+pruebas/*
+!pruebas/*.cjs
+!pruebas/*.py
+!pruebas/figura.png
+# Resultados de la revisión vigente publicados deliberadamente
+!pruebas/resultados.json
+!pruebas/avanzadas.json
+!pruebas/word-resultados.json
+!pruebas/word-estructura.json
+!pruebas/publicacion-resultados.json
+!pruebas/modelos-resultados.json
+!pruebas/modelos-word-resultados.json
+!pruebas/descargas-resultados.json
+!pruebas/descargas-word-resultados.json
+!pruebas/studio-resultados.json
+!pruebas/multinavegador-resultados.json
+!pruebas/confianza-resultados.json
+!pruebas/confianza-word-resultados.json
+!pruebas/descargas-marcos-resultados.json
+!pruebas/github-resultados.json
+!pruebas/accesibilidad.json
+!pruebas/html-publico.json
+
+/Word_APA_GitHub_*.zip
+
+!pruebas/entrega-manifiesto.json
+
+!pruebas/diseno-resultados.json
+
+!pruebas/general-resultados.json
+!pruebas/general-word-resultados.json
+
+!pruebas/office-resultados.json

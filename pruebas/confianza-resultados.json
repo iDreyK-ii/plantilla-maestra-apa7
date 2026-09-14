@@ -1,0 +1,171 @@
+{
+  "checks": [
+    {
+      "name": "Primer guardado crea un punto de recuperación",
+      "ok": true
+    },
+    {
+      "name": "Guardados idénticos no duplican puntos",
+      "ok": true
+    },
+    {
+      "name": "Cambios rápidos esperan el intervalo automático; punto manual sí conserva",
+      "ok": true
+    },
+    {
+      "name": "Recuperación crea copia y conserva el original",
+      "ok": true
+    },
+    {
+      "name": "Eliminar conserva un punto y permite recuperar trabajo eliminado",
+      "ok": true
+    },
+    {
+      "name": "Historial retiene como máximo ocho puntos por documento",
+      "ok": true
+    },
+    {
+      "name": "Historial limita cuarenta puntos y doce MiB",
+      "ok": true
+    },
+    {
+      "name": "Documento demasiado grande no simula un punto guardado",
+      "ok": true
+    },
+    {
+      "name": "Plan: campos, conexiones y cancelación sin alterar contenido",
+      "ok": true
+    },
+    {
+      "name": "Ficha persistente al recargar; verificación solo de campos",
+      "ok": true
+    },
+    {
+      "name": "Ficha Word es archivo separado y contiene notas",
+      "ok": true
+    },
+    {
+      "name": "Word académico y HTML de entrega no contienen notas privadas",
+      "ok": true
+    },
+    {
+      "name": "Copia APA sí conserva ficha para seguir trabajando",
+      "ok": true
+    },
+    {
+      "name": "Centro de entrega separa señales y confirmaciones; sin certificación",
+      "ok": true
+    },
+    {
+      "name": "Confirmaciones quedan pendientes cuando cambia el trabajo",
+      "ok": true
+    },
+    {
+      "name": "Señales detectan marcadores, salto de nivel e imagen sin descripción",
+      "ok": true
+    },
+    {
+      "name": "Hoja de revisión Word descargable y sin afirmación de aprobación",
+      "ok": true
+    },
+    {
+      "name": "Respaldo incluye documentos, borrador no guardado, historial y preferencias",
+      "ok": true
+    },
+    {
+      "name": "Respaldo inválido se rechaza sin mutar documentos",
+      "ok": true
+    },
+    {
+      "name": "Respaldo mayor a cuarenta MiB se rechaza antes de leerlo",
+      "ok": true
+    },
+    {
+      "name": "Importación elimina scripts y atributos ejecutables; no contamina prototipos",
+      "ok": true
+    },
+    {
+      "name": "Respaldo restaura copias, planificación, preferencias y fecha del historial",
+      "ok": true
+    },
+    {
+      "name": "Cuota insuficiente al restaurar no agrega copias parciales",
+      "ok": true
+    },
+    {
+      "name": "Guardado con cuota agotada no borra la versión previa",
+      "ok": true
+    },
+    {
+      "name": "Dos pestañas: cambios conocidos no se sobrescriben",
+      "ok": true
+    },
+    {
+      "name": "Conflicto puede resolverse conservando ambos trabajos",
+      "ok": true
+    },
+    {
+      "name": "Guardar desde otra pestaña conserva documentos ajenos nuevos",
+      "ok": true
+    },
+    {
+      "name": "Borrado en otra pestaña bloquea resurrección silenciosa",
+      "ok": true
+    },
+    {
+      "name": "Protección, historial y ficha son accesibles en móvil",
+      "ok": true
+    },
+    {
+      "name": "Borrar historial no elimina documentos actuales",
+      "ok": true
+    },
+    {
+      "name": "Sin IndexedDB se informa y sigue funcionando el guardado local",
+      "ok": true
+    },
+    {
+      "name": "Sin almacenamiento disponible no se informa guardado exitoso",
+      "ok": true
+    },
+    {
+      "name": "Sin errores JavaScript no controlados en las pruebas",
+      "ok": true
+    },
+    {
+      "name": "Chromium: HTML local sin red, planificación, historial y recuperación",
+      "ok": true
+    },
+    {
+      "name": "Firefox: HTML local sin red, planificación, historial y recuperación",
+      "ok": true
+    },
+    {
+      "name": "WebKit: HTML local sin red, planificación, historial y recuperación",
+      "ok": true
+    }
+  ],
+  "audits": [
+    {
+      "name": "Ficha de planificación",
+      "violations": []
+    },
+    {
+      "name": "Centro de entrega",
+      "violations": []
+    },
+    {
+      "name": "Protección",
+      "violations": []
+    },
+    {
+      "name": "Ficha móvil",
+      "violations": []
+    },
+    {
+      "name": "Historial móvil",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

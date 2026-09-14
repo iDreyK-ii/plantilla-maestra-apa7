@@ -1,0 +1,132 @@
+{
+  "checks": [
+    {
+      "name": "Plantilla normal en primera pantalla y 14 descargas sin abrir un modal",
+      "ok": true
+    },
+    {
+      "name": "Botón de plantilla normal descarga el DOCX base exacto sin crear trabajo",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: academico",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: ensayo",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: informe",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: monografia",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: upeu-perfil",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: upeu-tesis-articulo",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: upeu-articulo",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: upeu-revision",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: upeu-revision-articulo",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: upeu-doctoral",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: upeu-tradicional",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: enfermeria",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: ensayo-editorial",
+      "ok": true
+    },
+    {
+      "name": "Enlace visible de Word correcto: otro",
+      "ok": true
+    },
+    {
+      "name": "Descargar Word sin documento entrega la plantilla normal, no un aviso sin archivo",
+      "ok": true
+    },
+    {
+      "name": "Centro de descargas desde navegación, con base y trabajo claramente separados",
+      "ok": true
+    },
+    {
+      "name": "Paquete descargable idéntico al ZIP que contiene los 15 Word",
+      "ok": true
+    },
+    {
+      "name": "Si se bloquea el clic automático, el enlace nativo permite guardar el Word",
+      "ok": true
+    },
+    {
+      "name": "El enlace de reintento sigue válido después de un minuto",
+      "ok": true
+    },
+    {
+      "name": "Menú del editor ofrece plantilla normal, modelo seleccionado y trabajo propio",
+      "ok": true
+    },
+    {
+      "name": "Página de descargas independiente funciona sin JavaScript",
+      "ok": true
+    },
+    {
+      "name": "Todos los enlaces estáticos responden con archivos Word reales",
+      "ok": true
+    },
+    {
+      "name": "En móvil las plantillas siguen visibles y descargables, sin desbordamiento",
+      "ok": true
+    },
+    {
+      "name": "La aplicación HTML autónoma descarga enlaces de modelos sin internet",
+      "ok": true
+    },
+    {
+      "name": "Sin errores JavaScript en el nuevo flujo de descargas",
+      "ok": true
+    }
+  ],
+  "audits": [
+    {
+      "name": "Inicio con descargas visibles",
+      "violations": []
+    },
+    {
+      "name": "Centro de descargas",
+      "violations": []
+    },
+    {
+      "name": "Descargas independientes",
+      "violations": []
+    },
+    {
+      "name": "Descargas móviles",
+      "violations": []
+    }
+  ],
+  "errors": [],
+  "browser": "153.0.8010.12"
+}

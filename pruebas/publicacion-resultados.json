@@ -1,0 +1,46 @@
+{
+  "browser": "153.0.8010.12",
+  "checks": [
+    {
+      "name": "HTML público sin cierres de documento incrustados ni controles binarios",
+      "ok": true
+    },
+    {
+      "name": "Inicio y pie sin código visible ni controles de impresión",
+      "ok": true
+    },
+    {
+      "name": "La descarga Word no abre impresión ni genera PDF",
+      "ok": true
+    },
+    {
+      "name": "PDF sigue disponible únicamente como herramienta opcional separada",
+      "ok": true
+    },
+    {
+      "name": "Exportación HTML elimina herramientas, pie, scripts ejecutables y decoración",
+      "ok": true
+    },
+    {
+      "name": "Archivo MHTML rechazado claramente, sin alterar el documento",
+      "ok": true
+    },
+    {
+      "name": "Visor restringido sandbox: sin código visible y fallo de guardado explícito",
+      "ok": true
+    },
+    {
+      "name": "JavaScript desactivado: aviso claro, nunca código expuesto",
+      "ok": true
+    },
+    {
+      "name": "Responsive: inicio y editor sin desbordamiento a 360, 768, 1024 y 1440 px",
+      "ok": true
+    },
+    {
+      "name": "Cero errores JavaScript en los flujos de publicación",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

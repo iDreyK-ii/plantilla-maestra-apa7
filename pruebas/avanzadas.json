@@ -1,0 +1,57 @@
+{
+  "results": [
+    {
+      "name": "Párrafo de varias páginas conserva cada carácter y formatos",
+      "ok": true
+    },
+    {
+      "name": "Cursor se conserva al escribir después de paginación",
+      "ok": true
+    },
+    {
+      "name": "Tabla extensa repite encabezados, conserva filas al repaginar",
+      "ok": true
+    },
+    {
+      "name": "Portada editable y ajustes institucionales persistentes",
+      "ok": true
+    },
+    {
+      "name": "Formato de alineación no se pierde al recuperar",
+      "ok": true
+    },
+    {
+      "name": "Importación de HTML v2 conserva funciones y contenido",
+      "ok": true
+    },
+    {
+      "name": "Importación de copia editable y figuras",
+      "ok": true
+    },
+    {
+      "name": "No ejecuta scripts de HTML importado ni carga imágenes externas",
+      "ok": true
+    },
+    {
+      "name": "Errores de cuota de guardado visibles, sin falso éxito",
+      "ok": true
+    },
+    {
+      "name": "Analizador de estructura recomienda, no certifica",
+      "ok": true
+    },
+    {
+      "name": "Operaciones de secciones, contenido incluido",
+      "ok": true
+    },
+    {
+      "name": "Eliminar documento no elimina sus copias",
+      "ok": true
+    },
+    {
+      "name": "Sin errores JS en flujos avanzados",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

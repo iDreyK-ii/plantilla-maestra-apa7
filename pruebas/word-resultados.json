@@ -1,0 +1,27 @@
+{
+  "browser": "153.0.8010.12",
+  "checks": [
+    {
+      "name": "Plantilla DOCX descargable sin conexión desde el inicio",
+      "ok": true
+    },
+    {
+      "name": "Guía Word accesible con configuración y tres formas de trabajar",
+      "ok": true
+    },
+    {
+      "name": "Exporta el contenido actual a DOCX real, no a plantilla ni HTML renombrado",
+      "ok": true
+    },
+    {
+      "name": "Inicio responsive mantiene acceso a plantilla y guía Word",
+      "ok": true
+    },
+    {
+      "name": "Sin servicios externos ni errores JavaScript",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

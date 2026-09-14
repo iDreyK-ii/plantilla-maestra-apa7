@@ -1,0 +1,39 @@
+{
+  "name": "plantilla-maestra-apa7",
+  "version": "5.5.0",
+  "scripts": {
+    "build": "python proyecto/crear_catalogo.py && python proyecto/crear_plantilla_word.py && python proyecto/crear_modelos_word.py && python proyecto/documentar_catalogo.py && python proyecto/crear_aprendizaje.py && python proyecto/crear_descargas.py && esbuild proyecto/word-export.js --bundle --format=iife --global-name=APAWord --platform=browser --target=es2020 --minify --outfile=proyecto/vendor-word.js --legal-comments=linked && esbuild proyecto/word-import.js --bundle --format=iife --global-name=APAImport --platform=browser --target=es2020 --minify --outfile=proyecto/vendor-import.js --legal-comments=linked && python proyecto/compilar.py && python proyecto/sincronizar_html.py",
+    "start": "python -m http.server 3000 --bind 0.0.0.0",
+    "test": "node pruebas/funcionales.cjs && node pruebas/avanzadas.cjs",
+    "test:word": "node pruebas/word.cjs && python pruebas/validar_word.py",
+    "test:release": "node pruebas/publicacion.cjs && node pruebas/auditoria-ui.cjs && python pruebas/validar_html_publico.py",
+    "test:modelos": "node pruebas/modelos.cjs && python pruebas/validar_modelos_word.py",
+    "package": "python proyecto/empaquetar.py",
+    "test:descargas": "node pruebas/descargas.cjs && python pruebas/validar_descargas.py",
+    "test:studio": "node pruebas/studio.cjs",
+    "test:cross-browser": "node pruebas/multinavegador.cjs",
+    "test:confianza": "node pruebas/confianza.cjs && python pruebas/validar_confianza_word.py",
+    "test:marcos": "node pruebas/descargas-marcos.cjs",
+    "build:pages": "python proyecto/preparar_pages.py",
+    "test:github": "node pruebas/github.cjs",
+    "test:all": "npm test && npm run test:word && npm run test:release && npm run test:modelos && npm run test:descargas && npm run test:studio && npm run test:cross-browser && npm run test:confianza && npm run test:marcos && npm run test:github && npm run test:sync && npm run test:design && npm run test:general",
+    "sync:github": "python proyecto/sincronizar_github.py",
+    "test:sync": "python pruebas/sincronizacion_github.py",
+    "test:design": "node pruebas/diseno.cjs",
+    "test:general": "node pruebas/general.cjs && python pruebas/validar_general.py",
+    "test:office": "python pruebas/validar_office.py"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "Escribe tus trabajos APA 7 y descarga plantillas Word.",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "esbuild": "^0.28.2",
+    "playwright": "^1.63.0"
+  },
+  "private": true,
+  "dependencies": {
+    "docx": "^9.7.1",
+    "mammoth": "^1.11.0"
+  }
+}

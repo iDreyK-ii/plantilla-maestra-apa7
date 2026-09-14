@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-14T14:01:00.768Z",
+  "browser": "153.0.8010.12",
+  "results": [
+    {
+      "name": "01 Inicio, asistente y portada",
+      "ok": true
+    },
+    {
+      "name": "02 Escribir párrafo sin pérdida",
+      "ok": true
+    },
+    {
+      "name": "Estilo apa-normal",
+      "ok": true
+    },
+    {
+      "name": "Estilo apa-noindent",
+      "ok": true
+    },
+    {
+      "name": "Estilo apa-title",
+      "ok": true
+    },
+    {
+      "name": "Estilo apa-subtitle",
+      "ok": true
+    },
+    {
+      "name": "Estilo apa-subtitle1",
+      "ok": true
+    },
+    {
+      "name": "Estilo apa-subtitle2",
+      "ok": true
+    },
+    {
+      "name": "Estilo h1",
+      "ok": true
+    },
+    {
+      "name": "Estilo h2",
+      "ok": true
+    },
+    {
+      "name": "Estilo h3",
+      "ok": true
+    },
+    {
+      "name": "Estilo h4",
+      "ok": true
+    },
+    {
+      "name": "Estilo h5",
+      "ok": true
+    },
+    {
+      "name": "Estilo blockquote",
+      "ok": true
+    },
+    {
+      "name": "Estilo reference",
+      "ok": true
+    },
+    {
+      "name": "16 Multiselección de párrafos",
+      "ok": true
+    },
+    {
+      "name": "17 Crear tabla y editar celda",
+      "ok": true
+    },
+    {
+      "name": "18 Tabla agregar y eliminar filas/columnas",
+      "ok": true
+    },
+    {
+      "name": "19 Tabla título, número, nota y duplicado",
+      "ok": true
+    },
+    {
+      "name": "20 Figura con imagen real local",
+      "ok": true
+    },
+    {
+      "name": "21 Crear referencias y ordenar biblioteca",
+      "ok": true
+    },
+    {
+      "name": "22 Cita vinculada parentética con página",
+      "ok": true
+    },
+    {
+      "name": "23 Cita narrativa y actualización de referencia",
+      "ok": true
+    },
+    {
+      "name": "24 Revisor con unidades correctas",
+      "ok": true
+    },
+    {
+      "name": "25 Navegación e índice dinámico",
+      "ok": true
+    },
+    {
+      "name": "26 Salto real y numeración automática",
+      "ok": true
+    },
+    {
+      "name": "27 Guardar, recargar y recuperar",
+      "ok": true
+    },
+    {
+      "name": "28 Duplicado independiente",
+      "ok": true
+    },
+    {
+      "name": "29 Exportar HTML sin interfaz ni scripts ejecutables",
+      "ok": true
+    },
+    {
+      "name": "30 Impresión limpia y PDF Carta",
+      "ok": true
+    },
+    {
+      "name": "31 Guía de trece módulos y tutor",
+      "ok": true
+    },
+    {
+      "name": "32 Pantalla móvil y edición",
+      "ok": true
+    },
+    {
+      "name": "33 Sin errores JavaScript",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

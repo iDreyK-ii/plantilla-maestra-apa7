@@ -1,0 +1,33 @@
+{
+  "reports": [
+    {
+      "name": "Inicio",
+      "violations": []
+    },
+    {
+      "name": "Asistente",
+      "violations": []
+    },
+    {
+      "name": "Editor",
+      "violations": []
+    },
+    {
+      "name": "Exportación Word",
+      "violations": []
+    },
+    {
+      "name": "Referencias",
+      "violations": []
+    },
+    {
+      "name": "Guía",
+      "violations": []
+    },
+    {
+      "name": "Inicio móvil",
+      "violations": []
+    }
+  ],
+  "errors": []
+}

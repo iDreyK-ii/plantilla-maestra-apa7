@@ -1,0 +1,1852 @@
+{
+  "revision": "2026-09-13.1",
+  "checked": "2026-09-13",
+  "policy": "Una adaptación estructural no equivale a una plantilla oficial. Confirma siempre programa, modalidad y versión. El formato base permanece APA 7.",
+  "sources": [
+    {
+      "id": "upeu-portal",
+      "org": "Universidad Peruana Unión · Dirección General de Investigación",
+      "title": "Documentos para el investigador",
+      "url": "https://investigacion.upeu.edu.pe/documentos-para-el-investigador/",
+      "date": "Sin fecha de revisión visible",
+      "scope": "Portal oficial de formatos, rúbricas y preliminares",
+      "status": "Portal consultado",
+      "note": "El portal enlaza documentos de fechas distintas. La accesibilidad del archivo no acredita que sea el formato vigente para todas las facultades.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "upeu-perfil",
+      "org": "UPeU · DGI",
+      "title": "Plantilla perfil de proyecto de investigación",
+      "url": "https://drive.google.com/file/d/1Hr3JI0f6zYRw83Imx_npDquVWkkU_vPt/view",
+      "portal": "https://investigacion.upeu.edu.pe/documentos-para-el-investigador/",
+      "date": "2020 en la portada de la plantilla",
+      "scope": "Perfil de proyecto; ajuste por diseño y unidad académica",
+      "status": "Contenido primario leído",
+      "note": "Usa Arial 14 en partes de la portada y remite las referencias al estilo de la revista. Esta aplicación adapta la estructura, no reproduce ese formato institucional completo.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "upeu-anexo1",
+      "org": "UPeU · DGI",
+      "title": "Anexo 01. Elementos del perfil de proyecto/proyecto de tesis",
+      "url": "https://drive.google.com/file/d/1bZpP8mlYOTKh7I-nAioRxg4yQpABKLdR/view",
+      "portal": "https://investigacion.upeu.edu.pe/documentos-para-el-investigador/",
+      "date": "Sin fecha de revisión visible",
+      "scope": "Funciones de los apartados y variantes metodológicas",
+      "status": "Contenido primario leído",
+      "note": "Distingue diseños cuantitativos, cualitativos, tecnológicos y documentales. No exige hipótesis o variables en todos los estudios.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "upeu-fe03",
+      "org": "UPeU · DGI",
+      "title": "FE-03. Evaluación del trabajo de investigación/tesis en formato artículo",
+      "url": "https://drive.google.com/file/d/1jYL7nsS_xSaUpovqgoewrgDgqwpmiITf/view",
+      "portal": "https://investigacion.upeu.edu.pe/documentos-para-el-investigador/",
+      "date": "Sin fecha de revisión visible",
+      "scope": "Tesis en formato artículo y manuscritos empíricos o de revisión",
+      "status": "Contenido primario leído",
+      "note": "La rúbrica declara que la estructura varía según la revista. Discusión, conclusiones y anexos dependen del tipo de artículo y del área. Es una rúbrica, no una plantilla editorial universal.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "upeu-fe01",
+      "org": "UPeU · DGI",
+      "title": "FE-01. Revisión bibliográfica básica",
+      "url": "https://drive.google.com/file/d/1I9GFzGe5D7BChvEMDqKeRJRVVhxk5Svo/view",
+      "portal": "https://investigacion.upeu.edu.pe/documentos-para-el-investigador/",
+      "date": "Sin fecha de revisión visible",
+      "scope": "Trabajo de revisión bibliográfica básica",
+      "status": "Contenido primario leído",
+      "note": "Incluye título, introducción, desarrollo, conclusiones, referencias y un informe externo de coincidencias. La herramienta no mide similitud ni plagio.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "upeu-fe04",
+      "org": "UPeU · DGI",
+      "title": "FE-04. Evaluación del proyecto de tesis doctoral",
+      "url": "https://drive.google.com/file/d/1AzjOKWILeaN0n7Iha3ok6ez2fEmUFsYG/view",
+      "portal": "https://investigacion.upeu.edu.pe/documentos-para-el-investigador/",
+      "date": "Sin fecha de revisión visible",
+      "scope": "Proyecto doctoral organizado por artículos",
+      "status": "Contenido primario leído",
+      "note": "Solicita división de los artículos y metodología de cada uno. No es un esquema genérico para cualquier tesis doctoral terminada.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "upeu-anexo3",
+      "org": "UPeU · DGI",
+      "title": "Anexo 03. Informe de investigación empírica (tesis)",
+      "url": "https://drive.google.com/file/d/0B_9dRZmkTMQbMkR0YUxHS1hmUjg/view",
+      "portal": "https://investigacion.upeu.edu.pe/documentos/",
+      "date": "Sin fecha de revisión visible; catálogo documental anterior",
+      "scope": "Tesis tradicional de cinco capítulos",
+      "status": "Uso condicionado: confirmar con el programa",
+      "note": "El documento indica A4 y preliminares institucionales. No se ofrece como equivalente a un Word oficial vigente; la adaptación usa Carta y APA 7.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "upeu-descartada",
+      "org": "UPeU · DGI",
+      "title": "Archivo enlazado como plantilla tradicional cuantitativa",
+      "url": "https://drive.google.com/file/d/1NuBRKqmvs5zdHpLLDBzAjRdA_alcy-hY/view",
+      "portal": "https://investigacion.upeu.edu.pe/documentos/",
+      "date": "Archivo con referencia explícita a APA 6",
+      "scope": "Archivo contrastado y no seleccionado como base",
+      "status": "Descartado como modelo principal",
+      "note": "Aunque el enlace menciona tesis tradicional, el archivo contiene un proyecto con diez capítulos, cronograma y presupuesto. Se detectó referencia a APA sexta edición; no se trasladaron sus instrucciones como APA 7.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "uc-texto",
+      "org": "Pontificia Universidad Católica de Chile · Comunicación Académica",
+      "title": "Cómo estructurar un texto académico",
+      "url": "https://comunicacionacademica.uc.cl/images/recursos/espanol/escritura/recurso_en_pdf_extenso/13_Como_estructurar_un_texto_academico.pdf",
+      "date": "Sin fecha de publicación visible",
+      "scope": "Guía didáctica de introducción, desarrollo y conclusión",
+      "status": "Contenido primario leído",
+      "note": "Explica propósitos argumentativos, expositivos y explicativos. No constituye un reglamento de tesis ni fija un esquema para todas las carreras.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "uchile-informe",
+      "org": "Universidad de Chile · Aprendizaje",
+      "title": "¿Cómo escribir un informe?",
+      "url": "https://aprendizaje.uchile.cl/recursos-para-leer-escribir-y-hablar-en-la-universidad/profundiza/profundiza-la-escritura/como-escribir-un-informe/",
+      "date": "Sin fecha de revisión visible",
+      "scope": "Informes académicos; variantes según disciplina",
+      "status": "Contenido primario leído",
+      "note": "El recurso distingue informes de laboratorio, práctica, investigación y bibliográficos. Los apartados concretos dependen del género y de la consigna docente.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "upn-monografia",
+      "org": "Universidad Privada del Norte · Estudios Generales",
+      "title": "Aprende a hacer una monografía paso a paso con esta guía definitiva",
+      "url": "https://blogs.upn.edu.pe/estudios-generales/que-es-monografia",
+      "date": "12 de abril de 2024 en la página consultada",
+      "scope": "Orientación divulgativa universitaria para monografías",
+      "status": "Contenido primario leído",
+      "note": "Identifica carátula, índice, cuerpo, conclusión, bibliografía y anexos; no todos son obligatorios en todos los encargos. No es reglamento institucional de titulación.",
+      "checked": "2026-09-13"
+    },
+    {
+      "id": "pucp-educacion",
+      "org": "PUCP · Revista Educación",
+      "title": "Normas para autores",
+      "url": "https://revistas.pucp.edu.pe/index.php/educacion/normas_autores",
+      "date": "Sin fecha de revisión visible",
+      "scope": "Envíos a esta revista, no a todas las universidades",
+      "status": "Contenido primario leído",
+      "note": "Pide Word, A4, Arial 11, interlineado 1,5 y manuscrito anónimo; título/resumen en tres idiomas. Contrasta con la base APA de esta app. No se automatiza un envío listo para esta revista.",
+      "checked": "2026-09-13"
+    }
+  ],
+  "models": [
+    {
+      "id": "academico",
+      "label": "Trabajo académico",
+      "category": "General",
+      "org": "Guía UC Chile",
+      "sources": [
+        "uc-texto"
+      ],
+      "sections": [
+        {
+          "key": "introduccion",
+          "name": "Introducción",
+          "level": 1,
+          "optional": false,
+          "guide": "Contextualiza el tema, delimita el problema, explica el propósito y anticipa la organización del texto.",
+          "example": "Este trabajo analiza [tema] en [contexto] para [propósito]. Se organiza en [apartados].",
+          "check": "¿El lector comprende qué estudiarás, para qué y con qué alcance?",
+          "kind": "text"
+        },
+        {
+          "key": "desarrollo",
+          "name": "Desarrollo",
+          "level": 1,
+          "optional": false,
+          "guide": "Expón y relaciona las ideas según el propósito: argumentar, explicar o describir. Divide en subtemas que aporten a ese propósito.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "conclusiones",
+          "name": "Conclusiones",
+          "level": 1,
+          "optional": false,
+          "guide": "Responde al propósito a partir de lo que desarrollaste. Distingue lo demostrado de lo que no puede concluirse; no introduzcas datos nuevos.",
+          "example": "En relación con [objetivo], la evidencia permite concluir [conclusión delimitada]. No permite establecer [alcance que excedería los datos].",
+          "check": "¿Las conclusiones están respaldadas por el desarrollo y no exageran los hallazgos?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Una base flexible para tareas universitarias.",
+      "why": "Se eligió una guía universitaria que explica la función de cada parte, sin imponer una estructura de tesis.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": true,
+      "toc": false,
+      "status": "Adaptación educativa",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "No existe un formato universal de trabajo académico. Sigue primero la consigna del docente."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final."
+      ],
+      "institutional": false,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    },
+    {
+      "id": "ensayo",
+      "label": "Ensayo",
+      "category": "General",
+      "org": "Guía UC Chile",
+      "sources": [
+        "uc-texto"
+      ],
+      "sections": [
+        {
+          "key": "introduccion",
+          "name": "Introducción",
+          "level": 1,
+          "optional": false,
+          "guide": "Presenta el problema debatible y formula tu tesis o postura. Explica su relevancia y anticipa la línea argumentativa.",
+          "example": "Sostengo que [postura delimitada] porque [razones que desarrollarás].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "argumentacion",
+          "name": "Argumentación",
+          "level": 1,
+          "optional": false,
+          "guide": "Desarrolla una razón por párrafo, aporta evidencia y explica cómo sostiene tu tesis. Considera objeciones y respóndelas con argumentos.",
+          "example": "Una objeción a [tesis] es [objeción]. Sin embargo, [evidencia y razonamiento].",
+          "check": "¿Hay una tesis defendida con evidencia, no solo opiniones o resúmenes?",
+          "kind": "text"
+        },
+        {
+          "key": "conclusiones",
+          "name": "Conclusiones",
+          "level": 1,
+          "optional": false,
+          "guide": "Responde al propósito a partir de lo que desarrollaste. Distingue lo demostrado de lo que no puede concluirse; no introduzcas datos nuevos.",
+          "example": "En relación con [objetivo], la evidencia permite concluir [conclusión delimitada]. No permite establecer [alcance que excedería los datos].",
+          "check": "¿Las conclusiones están respaldadas por el desarrollo y no exageran los hallazgos?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Defiende una postura con razones y fuentes.",
+      "why": "La guía UC distingue explícitamente la organización argumentativa; no se confundió un ensayo de curso con un manuscrito de revista.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": true,
+      "toc": false,
+      "status": "Adaptación educativa",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "Los rótulos Introducción, Argumentación y Conclusiones pueden omitirse si tu docente pide un texto continuo. No es una tesis de grado."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final."
+      ],
+      "institutional": false,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    },
+    {
+      "id": "informe",
+      "label": "Informe",
+      "category": "General",
+      "org": "Guía Universidad de Chile",
+      "sources": [
+        "uchile-informe"
+      ],
+      "sections": [
+        {
+          "key": "introduccion",
+          "name": "Introducción",
+          "level": 1,
+          "optional": false,
+          "guide": "Contextualiza el tema, delimita el problema, explica el propósito y anticipa la organización del texto.",
+          "example": "Este trabajo analiza [tema] en [contexto] para [propósito]. Se organiza en [apartados].",
+          "check": "¿El lector comprende qué estudiarás, para qué y con qué alcance?",
+          "kind": "text"
+        },
+        {
+          "key": "objetivos",
+          "name": "Objetivos",
+          "level": 1,
+          "optional": false,
+          "guide": "Indica lo que se pretende reportar o evaluar y delimita el alcance.",
+          "example": "Analizar [objeto de estudio] en [población o corpus], considerando [alcance, contexto y periodo].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "procedimiento",
+          "name": "Procedimiento",
+          "level": 1,
+          "optional": false,
+          "guide": "Explica materiales, método y actividades relevantes según el tipo de informe. Para un informe bibliográfico, describe cómo elegiste y analizaste las fuentes.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "resultados",
+          "name": "Resultados",
+          "level": 1,
+          "optional": false,
+          "guide": "Organiza los hallazgos reales en el orden de los objetivos. Usa tablas o figuras pertinentes sin repetir todos los datos en el texto.",
+          "example": "Respecto del objetivo [n], se encontró [resultado real]. La Tabla [n] presenta [datos necesarios para examinarlo].",
+          "check": "¿Los resultados se apoyan en los datos y no se confunden con interpretación?",
+          "kind": "text"
+        },
+        {
+          "key": "conclusiones",
+          "name": "Conclusiones",
+          "level": 1,
+          "optional": false,
+          "guide": "Responde al propósito a partir de lo que desarrollaste. Distingue lo demostrado de lo que no puede concluirse; no introduzcas datos nuevos.",
+          "example": "En relación con [objetivo], la evidencia permite concluir [conclusión delimitada]. No permite establecer [alcance que excedería los datos].",
+          "check": "¿Las conclusiones están respaldadas por el desarrollo y no exageran los hallazgos?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Informa sobre una actividad, análisis o experiencia.",
+      "why": "Se eligió una guía que reconoce variantes por disciplina en lugar de imponer el formato de laboratorio a cualquier informe.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": true,
+      "toc": false,
+      "status": "Adaptación educativa",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "Objetivos, procedimiento y resultados son una variante didáctica. Un informe bibliográfico o de práctica puede usar otros títulos."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final."
+      ],
+      "institutional": false,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    },
+    {
+      "id": "monografia",
+      "label": "Monografía",
+      "category": "General",
+      "org": "Orientación UPN",
+      "sources": [
+        "upn-monografia",
+        "uc-texto"
+      ],
+      "sections": [
+        {
+          "key": "introduccion",
+          "name": "Introducción",
+          "level": 1,
+          "optional": false,
+          "guide": "Contextualiza el tema, delimita el problema, explica el propósito y anticipa la organización del texto.",
+          "example": "Este trabajo analiza [tema] en [contexto] para [propósito]. Se organiza en [apartados].",
+          "check": "¿El lector comprende qué estudiarás, para qué y con qué alcance?",
+          "kind": "text"
+        },
+        {
+          "key": "marco",
+          "name": "Marco teórico",
+          "level": 1,
+          "optional": false,
+          "guide": "Delimita conceptos y perspectivas necesarios para comprender el tema, sustentándolos con fuentes.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "desarrollo",
+          "name": "Desarrollo",
+          "level": 1,
+          "optional": false,
+          "guide": "Organiza el análisis del tema delimitado por subtemas. Compara y sintetiza fuentes; no acumules fragmentos copiados.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "conclusiones",
+          "name": "Conclusiones",
+          "level": 1,
+          "optional": false,
+          "guide": "Responde al propósito a partir de lo que desarrollaste. Distingue lo demostrado de lo que no puede concluirse; no introduzcas datos nuevos.",
+          "example": "En relación con [objetivo], la evidencia permite concluir [conclusión delimitada]. No permite establecer [alcance que excedería los datos].",
+          "check": "¿Las conclusiones están respaldadas por el desarrollo y no exageran los hallazgos?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        },
+        {
+          "key": "anexos",
+          "name": "Anexos",
+          "level": 1,
+          "optional": true,
+          "guide": "Agrega materiales complementarios citados en el cuerpo. No incluyas datos identificables, consentimientos firmados ni permisos que no poseas.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Cada anexo aporta evidencia necesaria y protege la confidencialidad?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Profundiza en un tema delimitado mediante fuentes.",
+      "why": "La guía UPN identifica los componentes del género; se añade introducción y división del cuerpo como ayuda didáctica, no como mandato UPN.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": true,
+      "toc": true,
+      "status": "Adaptación educativa",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "En la fuente se usa el término Bibliografía; la adaptación emplea Referencias para las fuentes citadas según APA. El marco teórico separado no es universal."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final."
+      ],
+      "institutional": false,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    },
+    {
+      "id": "upeu-perfil",
+      "label": "Proyecto",
+      "category": "UPeU",
+      "org": "UPeU · perfil de proyecto",
+      "sources": [
+        "upeu-perfil",
+        "upeu-anexo1"
+      ],
+      "sections": [
+        {
+          "key": "planteamiento",
+          "name": "1. Planteamiento del problema",
+          "level": 1,
+          "optional": false,
+          "guide": "Sitúa el problema y delimita qué vacío o necesidad atenderás. Este bloque agrupa justificación, antecedentes recientes, objetivos y supuestos pertinentes.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "justificacion",
+          "name": "1.1 Justificación",
+          "level": 2,
+          "optional": false,
+          "guide": "Explica por qué y para qué estudiarás el tema, a quién beneficia y cuál es la utilidad. Fundamenta la necesidad con evidencia.",
+          "example": "La investigación es pertinente porque [necesidad respaldada por evidencia]. Sus aportes permitirían [utilidad concreta] para [destinatarios].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "estado-arte",
+          "name": "1.2 Estado del arte",
+          "level": 2,
+          "optional": false,
+          "guide": "Sintetiza críticamente investigaciones y controversias pertinentes. Termina con el vacío que tu estudio busca abordar, no con una lista de resúmenes.",
+          "example": "[Fuente A] estudió [aspecto]; [fuente B] encontró [hallazgo]. Sus alcances difieren en [criterio]. Persiste un vacío sobre [problema].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "objetivos",
+          "name": "1.3 Objetivos",
+          "level": 2,
+          "optional": false,
+          "guide": "Formula un objetivo general con un verbo en infinitivo y, cuando corresponda, objetivos específicos que contribuyan a él.",
+          "example": "Determinar [relación/característica] en [población o unidades] de [contexto y periodo].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "hipotesis",
+          "name": "1.4 Hipótesis",
+          "level": 2,
+          "optional": true,
+          "guide": "Formula respuestas contrastables solo si el diseño las requiere y vincúlalas con los objetivos. No todos los estudios tienen hipótesis.",
+          "example": "En [contexto], se espera que [relación contrastable entre variables]. La hipótesis se evaluará mediante [procedimiento coherente].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "variables",
+          "name": "1.5 Variables",
+          "level": 2,
+          "optional": true,
+          "guide": "Define las variables que correspondan. En estudios cualitativos o documentales usa categorías u otra organización pertinente; no impongas variables.",
+          "example": "Variable: [nombre]. Definición conceptual: [definición con fuente]. Definición operacional: [cómo se observará o medirá].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "metodologia",
+          "name": "2. Metodología",
+          "level": 1,
+          "optional": false,
+          "guide": "Describe lo que se hará, con suficiente detalle para valorar coherencia y factibilidad.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "diseno",
+          "name": "2.1 Diseño metodológico",
+          "level": 2,
+          "optional": false,
+          "guide": "Justifica enfoque y diseño a partir de la pregunta, no solo con etiquetas o definiciones generales.",
+          "example": "Se propone un estudio [diseño] porque permite responder [pregunta] mediante [tipo de evidencia].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "muestra",
+          "name": "2.2 Diseño muestral",
+          "level": 2,
+          "optional": false,
+          "guide": "Define población o corpus, unidad de análisis, selección, tamaño y criterios pertinentes. Puede tratarse de documentos, no necesariamente personas.",
+          "example": "La población o corpus comprende [unidades]. Se seleccionará [muestra] mediante [procedimiento y justificación], con criterios de [inclusión/exclusión].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "recoleccion",
+          "name": "2.3 Técnicas de recolección de datos",
+          "level": 2,
+          "optional": false,
+          "guide": "Explica técnicas, instrumentos, procedimientos y evidencia de validez/confiabilidad cuando proceda.",
+          "example": "Se empleará [instrumento o técnica] para obtener [información]. Se documentará [validez, confiabilidad u otro criterio pertinente].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "analisis",
+          "name": "2.4 Procesamiento de la información",
+          "level": 2,
+          "optional": false,
+          "guide": "Describe el análisis planificado y su justificación. Incluye software y procedimientos; si no es estadístico, explica el análisis cualitativo o documental.",
+          "example": "La información se analizará mediante [procedimiento], seleccionado por [razón vinculada a las preguntas y los datos].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "etica",
+          "name": "2.5 Aspectos éticos",
+          "level": 2,
+          "optional": false,
+          "guide": "Explica evaluación ética, consentimiento, permisos, privacidad y conflictos aplicables. Confirma la normativa vigente con el comité: no supongas exención ni fabriques aprobaciones.",
+          "example": "Antes de recolectar datos se gestionará [evaluación o permiso aplicable]. La información se protegerá mediante [medidas específicas]. No afirmes que se aprobó si aún está pendiente.",
+          "check": "¿Tienes las aprobaciones o la determinación de exención que correspondan antes de recolectar datos?",
+          "kind": "text"
+        },
+        {
+          "key": "administracion",
+          "name": "3. Administración del proyecto",
+          "level": 1,
+          "optional": false,
+          "guide": "Comprueba que tiempo, recursos, permisos y financiación permiten ejecutar la propuesta.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "cronograma",
+          "name": "3.1 Cronograma de actividades",
+          "level": 2,
+          "optional": false,
+          "guide": "Planifica actividades, responsables y fechas coherentes; incluye revisión, permisos, recolección, análisis, redacción y cierre. Usa una tabla o Gantt.",
+          "example": "Actividad: [trámite ético]. Inicio: [fecha]. Fin: [fecha]. Dependencia: [aprobación previa a la recolección, cuando corresponda].",
+          "check": "¿Las actividades caben en el plazo y respetan las dependencias?",
+          "kind": "schedule"
+        },
+        {
+          "key": "presupuesto",
+          "name": "3.2 Presupuesto proyectado",
+          "level": 2,
+          "optional": false,
+          "guide": "Detalla recursos, cantidades, costos unitarios, totales y financiación. Sustenta los valores; no presentes precios inventados como cotizaciones.",
+          "example": "Recurso: [nombre]. Cantidad: [n]. Costo unitario: [importe sustentado]. Total: [cantidad × costo]. Financiación: [fuente].",
+          "check": "¿Los cálculos y las fuentes de financiación son verificables?",
+          "kind": "budget"
+        },
+        {
+          "key": "referencias",
+          "name": "4. Referencias bibliográficas",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        },
+        {
+          "key": "anexo-a",
+          "name": "5. Anexo A. Instrumentos",
+          "level": 1,
+          "optional": true,
+          "guide": "Incluye instrumentos en blanco y el modelo de consentimiento cuando aplique; no anexes datos personales reales.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "anexo-b",
+          "name": "6. Anexo B. Operacionalización",
+          "level": 1,
+          "optional": true,
+          "guide": "Presenta la matriz cuando existan variables que deban operacionalizarse.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "anexo-c",
+          "name": "7. Anexo C. Material complementario",
+          "level": 1,
+          "optional": true,
+          "guide": "Incluye imágenes, planos, figuras o tablas pertinentes y citados en el proyecto.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Planifica una investigación antes de ejecutarla.",
+      "why": "Se eligió la plantilla de perfil enlazada por el portal DGI y se contrastó con el Anexo 01; no se usó el archivo ambiguo rotulado como tesis tradicional.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": true,
+      "toc": true,
+      "status": "Fuente enlazada por DGI · confirmar vigencia",
+      "scope": "Perfil de proyecto de investigación; fuente con portada 2020",
+      "warnings": [
+        "La plantilla fuente muestra 2020. Consulta si tu facultad utiliza una versión posterior.",
+        "La fuente pide Arial 14 en partes de portada y referencias según la revista. Aquí se conserva APA 7, Carta y TNR 12; no es el formulario oficial listo para trámite.",
+        "Las longitudes orientativas del archivo fuente no son reglas APA. Hipótesis, variables y anexos dependen del diseño."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final.",
+        "Confirmé la versión de perfil con mi asesor y no confundí un proyecto con una tesis final.",
+        "Definí cómo tramitaré las aprobaciones y permisos antes de recolectar información.",
+        "Verifiqué cronograma, presupuesto y financiación."
+      ],
+      "institutional": true,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    },
+    {
+      "id": "upeu-tesis-articulo",
+      "label": "Tesis en formato artículo",
+      "category": "UPeU",
+      "org": "UPeU · FE-03",
+      "sources": [
+        "upeu-fe03",
+        "upeu-portal"
+      ],
+      "sections": [
+        {
+          "key": "resumen",
+          "name": "Resumen",
+          "level": 1,
+          "optional": false,
+          "guide": "Resume propósito, método, hallazgos reales y conclusión. Redáctalo al final y respeta la extensión del destino; no adelantes resultados que no existen.",
+          "example": "Objetivo: [propósito]. Método: [procedimiento realmente utilizado]. Resultados: [hallazgos]. Conclusión: [respuesta al objetivo]. Redáctalo como un párrafo si así lo exige el destino.",
+          "check": "¿Resume fielmente el trabajo y respeta el límite confirmado?",
+          "kind": "noindent"
+        },
+        {
+          "key": "palabras-clave",
+          "name": "Palabras clave",
+          "level": 2,
+          "optional": false,
+          "guide": "Elige términos precisos de búsqueda. FE-03 orienta a 3–5; confirma el número exigido por la revista.",
+          "example": "[término preciso 1], [término preciso 2], [término preciso 3]. No uses estos marcadores como términos finales.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "keywords"
+        },
+        {
+          "key": "abstract",
+          "name": "Abstract",
+          "level": 1,
+          "optional": false,
+          "guide": "Traduce fielmente el resumen al inglés y revisa la terminología. No agregues ni cambies resultados.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "noindent"
+        },
+        {
+          "key": "keywords",
+          "name": "Keywords",
+          "level": 2,
+          "optional": false,
+          "guide": "Usa los equivalentes en inglés de las palabras clave.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "keywords"
+        },
+        {
+          "key": "introduccion",
+          "name": "Introducción",
+          "level": 1,
+          "optional": false,
+          "guide": "Contextualiza el tema, delimita el problema, explica el propósito y anticipa la organización del texto.",
+          "example": "Este trabajo analiza [tema] en [contexto] para [propósito]. Se organiza en [apartados].",
+          "check": "¿El lector comprende qué estudiarás, para qué y con qué alcance?",
+          "kind": "text"
+        },
+        {
+          "key": "metodo",
+          "name": "Metodología",
+          "level": 1,
+          "optional": false,
+          "guide": "Describe diseño, participantes o fuentes, instrumentos, procedimiento, análisis y resguardo ético. En un informe final narra lo efectivamente realizado.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Otra persona podría comprender y examinar el procedimiento?",
+          "kind": "text"
+        },
+        {
+          "key": "resultados",
+          "name": "Resultados",
+          "level": 1,
+          "optional": false,
+          "guide": "Organiza los hallazgos reales en el orden de los objetivos. Usa tablas o figuras pertinentes sin repetir todos los datos en el texto.",
+          "example": "Respecto del objetivo [n], se encontró [resultado real]. La Tabla [n] presenta [datos necesarios para examinarlo].",
+          "check": "¿Los resultados se apoyan en los datos y no se confunden con interpretación?",
+          "kind": "text"
+        },
+        {
+          "key": "discusion",
+          "name": "Discusión",
+          "level": 1,
+          "optional": true,
+          "guide": "Interpreta los resultados frente al objetivo y a estudios previos. Explica coincidencias, diferencias, limitaciones e implicaciones sin sobregeneralizar.",
+          "example": "El hallazgo [resultado real] coincide o contrasta con [estudio citado]. Una explicación posible es [argumento sustentado], aunque [limitación].",
+          "check": "¿Contrastas con fuentes pertinentes y reconoces las limitaciones?",
+          "kind": "text"
+        },
+        {
+          "key": "conclusiones",
+          "name": "Conclusiones",
+          "level": 1,
+          "optional": true,
+          "guide": "Responde al propósito a partir de lo que desarrollaste. Distingue lo demostrado de lo que no puede concluirse; no introduzcas datos nuevos.",
+          "example": "En relación con [objetivo], la evidencia permite concluir [conclusión delimitada]. No permite establecer [alcance que excedería los datos].",
+          "check": "¿Las conclusiones están respaldadas por el desarrollo y no exageran los hallazgos?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        },
+        {
+          "key": "anexos",
+          "name": "Anexos",
+          "level": 1,
+          "optional": true,
+          "guide": "Agrega materiales complementarios citados en el cuerpo. No incluyas datos identificables, consentimientos firmados ni permisos que no poseas.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Cada anexo aporta evidencia necesaria y protege la confidencialidad?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Presenta una investigación de grado con organización de artículo.",
+      "why": "FE-03 corresponde explícitamente a tesis en formato artículo y reconoce variaciones por revista; se prioriza frente a modelos antiguos de diez capítulos.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": true,
+      "toc": false,
+      "status": "Rúbrica oficial consultada",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "FE-03 no fija una revista ni sustituye su guía de autores. Confirma el destino, el tipo de estudio y los preliminares exigidos por tu programa.",
+        "Las plantillas oficiales de portada, declaración y evaluación se consultan en el portal DGI. No se fabrican sellos, firmas, actas ni aprobaciones.",
+        "Discusión y conclusiones pueden ser independientes o integradas según la revista."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final.",
+        "Confirmé que mi programa admite tesis en formato artículo y la revista de referencia.",
+        "Tengo los preliminares oficiales y documentos de aprobación requeridos.",
+        "Separé resultados reales, interpretación y conclusiones."
+      ],
+      "institutional": true,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    },
+    {
+      "id": "upeu-articulo",
+      "label": "Artículo de investigación",
+      "category": "UPeU",
+      "org": "UPeU · FE-03",
+      "sources": [
+        "upeu-fe03"
+      ],
+      "sections": [
+        {
+          "key": "resumen",
+          "name": "Resumen",
+          "level": 1,
+          "optional": false,
+          "guide": "Resume propósito, método, hallazgos reales y conclusión. Redáctalo al final y respeta la extensión del destino; no adelantes resultados que no existen.",
+          "example": "Objetivo: [propósito]. Método: [procedimiento realmente utilizado]. Resultados: [hallazgos]. Conclusión: [respuesta al objetivo]. Redáctalo como un párrafo si así lo exige el destino.",
+          "check": "¿Resume fielmente el trabajo y respeta el límite confirmado?",
+          "kind": "noindent"
+        },
+        {
+          "key": "palabras-clave",
+          "name": "Palabras clave",
+          "level": 2,
+          "optional": false,
+          "guide": "Elige términos precisos de búsqueda. FE-03 orienta a 3–5; confirma el número exigido por la revista.",
+          "example": "[término preciso 1], [término preciso 2], [término preciso 3]. No uses estos marcadores como términos finales.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "keywords"
+        },
+        {
+          "key": "abstract",
+          "name": "Abstract",
+          "level": 1,
+          "optional": false,
+          "guide": "Traduce fielmente el resumen al inglés y revisa la terminología. No agregues ni cambies resultados.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "noindent"
+        },
+        {
+          "key": "keywords",
+          "name": "Keywords",
+          "level": 2,
+          "optional": false,
+          "guide": "Usa los equivalentes en inglés de las palabras clave.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "keywords"
+        },
+        {
+          "key": "introduccion",
+          "name": "Introducción",
+          "level": 1,
+          "optional": false,
+          "guide": "Contextualiza el tema, delimita el problema, explica el propósito y anticipa la organización del texto.",
+          "example": "Este trabajo analiza [tema] en [contexto] para [propósito]. Se organiza en [apartados].",
+          "check": "¿El lector comprende qué estudiarás, para qué y con qué alcance?",
+          "kind": "text"
+        },
+        {
+          "key": "metodo",
+          "name": "Metodología",
+          "level": 1,
+          "optional": false,
+          "guide": "Describe diseño, participantes o fuentes, instrumentos, procedimiento, análisis y resguardo ético. En un informe final narra lo efectivamente realizado.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Otra persona podría comprender y examinar el procedimiento?",
+          "kind": "text"
+        },
+        {
+          "key": "resultados",
+          "name": "Resultados",
+          "level": 1,
+          "optional": false,
+          "guide": "Organiza los hallazgos reales en el orden de los objetivos. Usa tablas o figuras pertinentes sin repetir todos los datos en el texto.",
+          "example": "Respecto del objetivo [n], se encontró [resultado real]. La Tabla [n] presenta [datos necesarios para examinarlo].",
+          "check": "¿Los resultados se apoyan en los datos y no se confunden con interpretación?",
+          "kind": "text"
+        },
+        {
+          "key": "discusion",
+          "name": "Discusión",
+          "level": 1,
+          "optional": true,
+          "guide": "Interpreta los resultados frente al objetivo y a estudios previos. Explica coincidencias, diferencias, limitaciones e implicaciones sin sobregeneralizar.",
+          "example": "El hallazgo [resultado real] coincide o contrasta con [estudio citado]. Una explicación posible es [argumento sustentado], aunque [limitación].",
+          "check": "¿Contrastas con fuentes pertinentes y reconoces las limitaciones?",
+          "kind": "text"
+        },
+        {
+          "key": "conclusiones",
+          "name": "Conclusiones",
+          "level": 1,
+          "optional": true,
+          "guide": "Responde al propósito a partir de lo que desarrollaste. Distingue lo demostrado de lo que no puede concluirse; no introduzcas datos nuevos.",
+          "example": "En relación con [objetivo], la evidencia permite concluir [conclusión delimitada]. No permite establecer [alcance que excedería los datos].",
+          "check": "¿Las conclusiones están respaldadas por el desarrollo y no exageran los hallazgos?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        },
+        {
+          "key": "anexos",
+          "name": "Anexos",
+          "level": 1,
+          "optional": true,
+          "guide": "Agrega materiales complementarios citados en el cuerpo. No incluyas datos identificables, consentimientos firmados ni permisos que no poseas.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Cada anexo aporta evidencia necesaria y protege la confidencialidad?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Comunica resultados empíricos como manuscrito.",
+      "why": "Se usa la rúbrica primaria de UPeU como guía general; la revista elegida mantiene la prioridad editorial.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": false,
+      "toc": false,
+      "status": "Rúbrica oficial consultada",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "No es una plantilla de envío a cualquier revista. Extensión, anonimato, idiomas, autores y estilo final deben ajustarse al destino.",
+        "Título y autoría se colocan en un bloque inicial, no en una portada estudiantil separada por defecto."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final."
+      ],
+      "institutional": true,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    },
+    {
+      "id": "upeu-revision",
+      "label": "Revisión bibliográfica básica",
+      "category": "UPeU",
+      "org": "UPeU · FE-01",
+      "sources": [
+        "upeu-fe01"
+      ],
+      "sections": [
+        {
+          "key": "introduccion",
+          "name": "Introducción",
+          "level": 1,
+          "optional": false,
+          "guide": "Contextualiza el tema, delimita el problema, explica el propósito y anticipa la organización del texto.",
+          "example": "Este trabajo analiza [tema] en [contexto] para [propósito]. Se organiza en [apartados].",
+          "check": "¿El lector comprende qué estudiarás, para qué y con qué alcance?",
+          "kind": "text"
+        },
+        {
+          "key": "desarrollo",
+          "name": "Desarrollo",
+          "level": 1,
+          "optional": false,
+          "guide": "Organiza el tema mediante comparaciones y discusiones de las fuentes. Cada argumento necesita evidencia y una explicación propia.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "conclusiones",
+          "name": "Conclusiones",
+          "level": 1,
+          "optional": false,
+          "guide": "Responde al propósito a partir de lo que desarrollaste. Distingue lo demostrado de lo que no puede concluirse; no introduzcas datos nuevos.",
+          "example": "En relación con [objetivo], la evidencia permite concluir [conclusión delimitada]. No permite establecer [alcance que excedería los datos].",
+          "check": "¿Las conclusiones están respaldadas por el desarrollo y no exageran los hallazgos?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Analiza y articula literatura sin afirmar una revisión sistemática.",
+      "why": "Se conserva la estructura breve indicada en FE-01, sin añadir métodos de revisión sistemática que la fuente no exige.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": true,
+      "toc": false,
+      "status": "Rúbrica oficial consultada",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "FE-01 indica un título de hasta 15 palabras y exige un informe externo de coincidencias. Confirma la versión y el procedimiento institucional.",
+        "Esta aplicación no calcula porcentaje de similitud ni certifica ausencia de plagio."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final."
+      ],
+      "institutional": true,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional.",
+      "titleMax": 15
+    },
+    {
+      "id": "upeu-revision-articulo",
+      "label": "Artículo de revisión",
+      "category": "UPeU",
+      "org": "UPeU · FE-03",
+      "sources": [
+        "upeu-fe03"
+      ],
+      "sections": [
+        {
+          "key": "resumen",
+          "name": "Resumen",
+          "level": 1,
+          "optional": false,
+          "guide": "Resume propósito, método, hallazgos reales y conclusión. Redáctalo al final y respeta la extensión del destino; no adelantes resultados que no existen.",
+          "example": "Objetivo: [propósito]. Método: [procedimiento realmente utilizado]. Resultados: [hallazgos]. Conclusión: [respuesta al objetivo]. Redáctalo como un párrafo si así lo exige el destino.",
+          "check": "¿Resume fielmente el trabajo y respeta el límite confirmado?",
+          "kind": "noindent"
+        },
+        {
+          "key": "palabras-clave",
+          "name": "Palabras clave",
+          "level": 2,
+          "optional": false,
+          "guide": "Elige términos precisos de búsqueda. FE-03 orienta a 3–5; confirma el número exigido por la revista.",
+          "example": "[término preciso 1], [término preciso 2], [término preciso 3]. No uses estos marcadores como términos finales.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "keywords"
+        },
+        {
+          "key": "abstract",
+          "name": "Abstract",
+          "level": 1,
+          "optional": false,
+          "guide": "Traduce fielmente el resumen al inglés y revisa la terminología. No agregues ni cambies resultados.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "noindent"
+        },
+        {
+          "key": "keywords",
+          "name": "Keywords",
+          "level": 2,
+          "optional": false,
+          "guide": "Usa los equivalentes en inglés de las palabras clave.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "keywords"
+        },
+        {
+          "key": "introduccion",
+          "name": "Introducción",
+          "level": 1,
+          "optional": false,
+          "guide": "Contextualiza el tema, delimita el problema, explica el propósito y anticipa la organización del texto.",
+          "example": "Este trabajo analiza [tema] en [contexto] para [propósito]. Se organiza en [apartados].",
+          "check": "¿El lector comprende qué estudiarás, para qué y con qué alcance?",
+          "kind": "text"
+        },
+        {
+          "key": "metodo",
+          "name": "Metodología de la revisión",
+          "level": 1,
+          "optional": false,
+          "guide": "Explica fuentes o bases, términos, fechas, idiomas, criterios de selección y forma de síntesis. No llames sistemática a una revisión que no siguió un protocolo reproducible.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "sintesis",
+          "name": "Desarrollo y síntesis",
+          "level": 1,
+          "optional": false,
+          "guide": "Sintetiza los estudios seleccionados por ejes temáticos y evalúa acuerdos, discrepancias y limitaciones. Mantén trazabilidad entre afirmaciones y fuentes.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "discusion",
+          "name": "Discusión",
+          "level": 1,
+          "optional": true,
+          "guide": "Interpreta los resultados frente al objetivo y a estudios previos. Explica coincidencias, diferencias, limitaciones e implicaciones sin sobregeneralizar.",
+          "example": "El hallazgo [resultado real] coincide o contrasta con [estudio citado]. Una explicación posible es [argumento sustentado], aunque [limitación].",
+          "check": "¿Contrastas con fuentes pertinentes y reconoces las limitaciones?",
+          "kind": "text"
+        },
+        {
+          "key": "conclusiones",
+          "name": "Conclusiones",
+          "level": 1,
+          "optional": true,
+          "guide": "Responde al propósito a partir de lo que desarrollaste. Distingue lo demostrado de lo que no puede concluirse; no introduzcas datos nuevos.",
+          "example": "En relación con [objetivo], la evidencia permite concluir [conclusión delimitada]. No permite establecer [alcance que excedería los datos].",
+          "check": "¿Las conclusiones están respaldadas por el desarrollo y no exageran los hallazgos?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        },
+        {
+          "key": "anexos",
+          "name": "Anexos",
+          "level": 1,
+          "optional": true,
+          "guide": "Agrega materiales complementarios citados en el cuerpo. No incluyas datos identificables, consentimientos firmados ni permisos que no poseas.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Cada anexo aporta evidencia necesaria y protege la confidencialidad?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Explica una búsqueda y sintetiza críticamente sus resultados.",
+      "why": "FE-03 aporta instrucciones específicas para delimitar la búsqueda de artículos de revisión.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": false,
+      "toc": false,
+      "status": "Rúbrica oficial consultada",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "Las revisiones sistemáticas requieren además la guía de reporte y el protocolo que correspondan; esta plantilla no certifica PRISMA ni incorpora automáticamente sus 27 ítems."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final."
+      ],
+      "institutional": true,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    },
+    {
+      "id": "upeu-doctoral",
+      "label": "Proyecto de tesis doctoral",
+      "category": "UPeU",
+      "org": "UPeU · FE-04",
+      "sources": [
+        "upeu-fe04"
+      ],
+      "sections": [
+        {
+          "key": "planteamiento",
+          "name": "Planteamiento del problema",
+          "level": 1,
+          "optional": false,
+          "guide": "Delimita una contribución doctoral coherente que articule todos los artículos.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "justificacion",
+          "name": "Justificación",
+          "level": 2,
+          "optional": false,
+          "guide": "Argumenta la relevancia científica y la aportación que excede la suma de artículos aislados.",
+          "example": "La investigación es pertinente porque [necesidad respaldada por evidencia]. Sus aportes permitirían [utilidad concreta] para [destinatarios].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "objetivos",
+          "name": "Objetivos",
+          "level": 2,
+          "optional": false,
+          "guide": "Expresa el objetivo integrador y los objetivos de cada artículo.",
+          "example": "Analizar [objeto de estudio] en [población o corpus], considerando [alcance, contexto y periodo].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "hipotesis",
+          "name": "Hipótesis",
+          "level": 2,
+          "optional": true,
+          "guide": "Formula supuestos contrastables cuando el diseño lo requiera.",
+          "example": "En [contexto], se espera que [relación contrastable entre variables]. La hipótesis se evaluará mediante [procedimiento coherente].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "variables",
+          "name": "Variables",
+          "level": 2,
+          "optional": true,
+          "guide": "Define variables o categorías pertinentes a cada artículo y su relación con el conjunto.",
+          "example": "Variable: [nombre]. Definición conceptual: [definición con fuente]. Definición operacional: [cómo se observará o medirá].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "division",
+          "name": "División de los artículos",
+          "level": 1,
+          "optional": false,
+          "guide": "Describe el tema, pregunta y contribución de cada artículo. No presupongas un número universal: confírmalo con el programa.",
+          "example": "Artículo [n]: [pregunta y propósito]. Aporte al objetivo doctoral: [conexión]. Método previsto: [resumen].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "metodologia",
+          "name": "Metodología de cada artículo",
+          "level": 1,
+          "optional": false,
+          "guide": "Detalla diseño, muestras o fuentes, técnicas, instrumentos, análisis y ética para cada artículo; puedes duplicar subsecciones.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "etica",
+          "name": "Aspectos éticos",
+          "level": 2,
+          "optional": false,
+          "guide": "Explica evaluación ética, consentimiento, permisos, privacidad y conflictos aplicables. Confirma la normativa vigente con el comité: no supongas exención ni fabriques aprobaciones.",
+          "example": "Antes de recolectar datos se gestionará [evaluación o permiso aplicable]. La información se protegerá mediante [medidas específicas]. No afirmes que se aprobó si aún está pendiente.",
+          "check": "¿Tienes las aprobaciones o la determinación de exención que correspondan antes de recolectar datos?",
+          "kind": "text"
+        },
+        {
+          "key": "administracion",
+          "name": "Administración del proyecto",
+          "level": 1,
+          "optional": false,
+          "guide": "Articula tiempos y recursos del proyecto doctoral completo.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "cronograma",
+          "name": "Cronograma de actividades",
+          "level": 2,
+          "optional": false,
+          "guide": "Planifica actividades, responsables y fechas coherentes; incluye revisión, permisos, recolección, análisis, redacción y cierre. Usa una tabla o Gantt.",
+          "example": "Actividad: [trámite ético]. Inicio: [fecha]. Fin: [fecha]. Dependencia: [aprobación previa a la recolección, cuando corresponda].",
+          "check": "¿Las actividades caben en el plazo y respetan las dependencias?",
+          "kind": "schedule"
+        },
+        {
+          "key": "presupuesto",
+          "name": "Presupuesto proyectado",
+          "level": 2,
+          "optional": false,
+          "guide": "Detalla recursos, cantidades, costos unitarios, totales y financiación. Sustenta los valores; no presentes precios inventados como cotizaciones.",
+          "example": "Recurso: [nombre]. Cantidad: [n]. Costo unitario: [importe sustentado]. Total: [cantidad × costo]. Financiación: [fuente].",
+          "check": "¿Los cálculos y las fuentes de financiación son verificables?",
+          "kind": "budget"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        },
+        {
+          "key": "anexos",
+          "name": "Anexos",
+          "level": 1,
+          "optional": true,
+          "guide": "Agrega materiales complementarios citados en el cuerpo. No incluyas datos identificables, consentimientos firmados ni permisos que no poseas.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Cada anexo aporta evidencia necesaria y protege la confidencialidad?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Diseña un proyecto doctoral articulado por artículos.",
+      "why": "Se eligió la rúbrica específica FE-04, no un proyecto de pregrado ampliado.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": true,
+      "toc": true,
+      "status": "Rúbrica oficial consultada",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "FE-04 pide título tentativo de hasta 15 palabras, división y metodología por artículo e informe externo de coincidencias. Confirma su vigencia con la unidad de posgrado.",
+        "Es un proyecto doctoral, no el informe final de una tesis doctoral."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final.",
+        "Definí la contribución integrada y el método de cada artículo con mi asesor.",
+        "Confirmé el número y condiciones de los artículos y los requisitos externos del programa."
+      ],
+      "institutional": true,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional.",
+      "titleMax": 15
+    },
+    {
+      "id": "upeu-tradicional",
+      "label": "Tesis tradicional",
+      "category": "UPeU",
+      "org": "UPeU · Anexo 03",
+      "sources": [
+        "upeu-anexo3"
+      ],
+      "sections": [
+        {
+          "key": "dedicatoria",
+          "name": "Dedicatoria",
+          "level": 1,
+          "optional": true,
+          "guide": "Inclúyela solo si deseas y el programa la admite.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "agradecimientos",
+          "name": "Agradecimientos",
+          "level": 1,
+          "optional": true,
+          "guide": "Reconoce contribuciones y apoyos pertinentes. Omite si no corresponde.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "resumen",
+          "name": "Resumen",
+          "level": 1,
+          "optional": false,
+          "guide": "Resume objetivo, método, resultados reales y conclusión. El Anexo 03 consultado indica hasta 300 palabras; confirma si tu programa mantiene ese límite.",
+          "example": "Objetivo: [propósito]. Método: [procedimiento realmente utilizado]. Resultados: [hallazgos]. Conclusión: [respuesta al objetivo]. Redáctalo como un párrafo si así lo exige el destino.",
+          "check": "¿Resume fielmente el trabajo y respeta el límite confirmado?",
+          "kind": "noindent"
+        },
+        {
+          "key": "palabras-clave",
+          "name": "Palabras clave",
+          "level": 2,
+          "optional": false,
+          "guide": "Selecciona 5–6 términos clave según el Anexo 03 consultado; confirma el criterio vigente del programa.",
+          "example": "[término preciso 1], [término preciso 2], [término preciso 3]. No uses estos marcadores como términos finales.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "keywords"
+        },
+        {
+          "key": "abstract",
+          "name": "Abstract",
+          "level": 1,
+          "optional": false,
+          "guide": "Traduce fielmente el resumen al inglés y revisa la terminología. No agregues ni cambies resultados.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "noindent"
+        },
+        {
+          "key": "keywords",
+          "name": "Keywords",
+          "level": 2,
+          "optional": false,
+          "guide": "Usa los equivalentes en inglés de las palabras clave.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "keywords"
+        },
+        {
+          "key": "cap1",
+          "name": "Capítulo I. El problema",
+          "level": 1,
+          "optional": false,
+          "guide": "Presenta identificación del problema, justificación, presuposición filosófica si corresponde y objetivos.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "identificacion",
+          "name": "Identificación del problema",
+          "level": 2,
+          "optional": false,
+          "guide": "Delimita el problema y apoya el contexto con evidencia.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "justificacion",
+          "name": "Justificación",
+          "level": 2,
+          "optional": false,
+          "guide": "Explica la utilidad y pertinencia del estudio.",
+          "example": "La investigación es pertinente porque [necesidad respaldada por evidencia]. Sus aportes permitirían [utilidad concreta] para [destinatarios].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "filosofia",
+          "name": "Presuposición filosófica",
+          "level": 2,
+          "optional": true,
+          "guide": "Desarrolla la fundamentación filosófica cuando la unidad académica la requiera.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "objetivos",
+          "name": "Objetivos",
+          "level": 2,
+          "optional": false,
+          "guide": "Expresa el propósito y los objetivos coherentes con el enfoque.",
+          "example": "Analizar [objeto de estudio] en [población o corpus], considerando [alcance, contexto y periodo].",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "cap2",
+          "name": "Capítulo II. Revisión de la literatura / Marco teórico",
+          "level": 1,
+          "optional": false,
+          "guide": "Analiza antecedentes, fundamentos teóricos y métodos relevantes; contrasta evidencia, no solo definiciones.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "cap3",
+          "name": "Capítulo III. Materiales y métodos",
+          "level": 1,
+          "optional": false,
+          "guide": "Explica cómo se ejecutó realmente la investigación, incluidos ajustes respecto del proyecto, procedimientos, análisis y ética.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "cap4",
+          "name": "Capítulo IV. Resultados y discusión",
+          "level": 1,
+          "optional": false,
+          "guide": "Presenta hallazgos y contrástalos con la literatura en el orden de los objetivos; reconoce limitaciones.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "cap5",
+          "name": "Capítulo V. Conclusiones y recomendaciones",
+          "level": 1,
+          "optional": false,
+          "guide": "Expone aprendizajes y aportes sustentados. Distingue conclusiones de propuestas para futuras investigaciones.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        },
+        {
+          "key": "anexos",
+          "name": "Anexos",
+          "level": 1,
+          "optional": true,
+          "guide": "Agrega materiales complementarios citados en el cuerpo. No incluyas datos identificables, consentimientos firmados ni permisos que no poseas.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Cada anexo aporta evidencia necesaria y protege la confidencialidad?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Modelo de cinco capítulos, sujeto a confirmación del programa.",
+      "why": "Se seleccionó el Anexo 03 cuyo contenido sí describe un informe final; se descartó el archivo que mezcla título de tesis con proyecto y APA 6.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": true,
+      "toc": true,
+      "status": "Uso condicionado · confirmar versión",
+      "scope": "Anexo de catálogo anterior; no confirmado como requisito vigente",
+      "warnings": [
+        "No se recomienda asumir este modelo para un trámite nuevo sin autorización del programa.",
+        "La fuente indica A4, hasta 300 palabras de resumen, 5–6 palabras clave y preliminares específicos. La adaptación conserva Carta y formato APA 7.",
+        "Ficha catalográfica, hoja de evaluación, declaración, índices de tablas/figuras y códigos CRAI no se generan como si fueran documentos oficiales."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final."
+      ],
+      "institutional": true,
+      "historical": true,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    },
+    {
+      "id": "enfermeria",
+      "label": "Trabajo de Enfermería",
+      "category": "General",
+      "org": "Modelo didáctico propio",
+      "sources": [],
+      "sections": [
+        {
+          "key": "introduccion",
+          "name": "Introducción",
+          "level": 1,
+          "optional": false,
+          "guide": "Contextualiza el tema, delimita el problema, explica el propósito y anticipa la organización del texto.",
+          "example": "Este trabajo analiza [tema] en [contexto] para [propósito]. Se organiza en [apartados].",
+          "check": "¿El lector comprende qué estudiarás, para qué y con qué alcance?",
+          "kind": "text"
+        },
+        {
+          "key": "definicion",
+          "name": "Definición",
+          "level": 1,
+          "optional": false,
+          "guide": "Delimita la condición o tema mediante fuentes académicas actuales.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "fisiopatologia",
+          "name": "Fisiopatología",
+          "level": 1,
+          "optional": false,
+          "guide": "Explica mecanismos relevantes conectando procesos normales y alteraciones; sustenta las afirmaciones.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "manifestaciones",
+          "name": "Manifestaciones clínicas",
+          "level": 1,
+          "optional": false,
+          "guide": "Organiza signos, síntomas y hallazgos según fuentes clínicas; no diagnostiques a una persona desde este texto.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "tratamiento",
+          "name": "Tratamiento",
+          "level": 1,
+          "optional": false,
+          "guide": "Describe el abordaje respaldado por guías y distingue decisiones profesionales de información académica.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "farmacologia",
+          "name": "Farmacología",
+          "level": 1,
+          "optional": false,
+          "guide": "Explica grupos y mecanismos pertinentes usando fuentes verificadas; no inventes dosis ni conviertas el trabajo en una prescripción.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "cuidados",
+          "name": "Cuidados de Enfermería",
+          "level": 1,
+          "optional": false,
+          "guide": "Relaciona valoración, prioridades, objetivos de cuidado, intervenciones fundamentadas y evaluación según la consigna.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "conclusiones",
+          "name": "Conclusiones",
+          "level": 1,
+          "optional": false,
+          "guide": "Responde al propósito a partir de lo que desarrollaste. Distingue lo demostrado de lo que no puede concluirse; no introduzcas datos nuevos.",
+          "example": "En relación con [objetivo], la evidencia permite concluir [conclusión delimitada]. No permite establecer [alcance que excedería los datos].",
+          "check": "¿Las conclusiones están respaldadas por el desarrollo y no exageran los hallazgos?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Organiza una revisión académica de un tema de salud.",
+      "why": "Se conserva la estructura útil del proyecto; se etiqueta como didáctica propia porque no se verificó un formato institucional específico para ella.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": true,
+      "toc": false,
+      "status": "Adaptación educativa",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "No es una plantilla oficial de UPeU ni un plan de cuidados universal. Verifica la guía del curso y los protocolos clínicos pertinentes.",
+        "No incorpora datos reales de pacientes ni reemplaza juicio clínico."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final."
+      ],
+      "institutional": false,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    },
+    {
+      "id": "ensayo-editorial",
+      "label": "Ensayo para revista Educación",
+      "category": "Revista",
+      "org": "PUCP · Educación",
+      "sources": [
+        "pucp-educacion"
+      ],
+      "sections": [
+        {
+          "key": "resumen",
+          "name": "Resumen",
+          "level": 1,
+          "optional": false,
+          "guide": "Resume propósito, método, hallazgos reales y conclusión. Redáctalo al final y respeta la extensión del destino; no adelantes resultados que no existen.",
+          "example": "Objetivo: [propósito]. Método: [procedimiento realmente utilizado]. Resultados: [hallazgos]. Conclusión: [respuesta al objetivo]. Redáctalo como un párrafo si así lo exige el destino.",
+          "check": "¿Resume fielmente el trabajo y respeta el límite confirmado?",
+          "kind": "noindent"
+        },
+        {
+          "key": "resumos",
+          "name": "Resúmenes en inglés y portugués",
+          "level": 1,
+          "optional": false,
+          "guide": "Prepara traducciones equivalentes al resumen y términos clave en los tres idiomas. La página consultada pide resumen de hasta 130 palabras y 3–5 términos científicos.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "introduccion",
+          "name": "Introducción",
+          "level": 1,
+          "optional": false,
+          "guide": "Contextualiza el tema, delimita el problema, explica el propósito y anticipa la organización del texto.",
+          "example": "Este trabajo analiza [tema] en [contexto] para [propósito]. Se organiza en [apartados].",
+          "check": "¿El lector comprende qué estudiarás, para qué y con qué alcance?",
+          "kind": "text"
+        },
+        {
+          "key": "desarrollo",
+          "name": "Desarrollo",
+          "level": 1,
+          "optional": false,
+          "guide": "Argumenta críticamente un problema educativo, fundamentando la postura con fuentes.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "conclusiones",
+          "name": "Conclusiones",
+          "level": 1,
+          "optional": false,
+          "guide": "Responde al propósito a partir de lo que desarrollaste. Distingue lo demostrado de lo que no puede concluirse; no introduzcas datos nuevos.",
+          "example": "En relación con [objetivo], la evidencia permite concluir [conclusión delimitada]. No permite establecer [alcance que excedería los datos].",
+          "check": "¿Las conclusiones están respaldadas por el desarrollo y no exageran los hallazgos?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Adaptación estructural de un ensayo para una revista concreta.",
+      "why": "Permite enseñar que los requisitos editoriales pueden diferir del formato APA de la aplicación.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": false,
+      "toc": false,
+      "status": "Normas editoriales consultadas",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "La revista exige A4, Arial 11, interlineado 1,5 y manuscrito anónimo. Este Word mantiene APA base y NO está listo para envío sin ajustar el formato y eliminar identificadores.",
+        "La página indica 5000–7000 palabras para ensayos y una hoja de autores separada. Verifica nuevamente las normas antes de enviar."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final."
+      ],
+      "institutional": true,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    },
+    {
+      "id": "otro",
+      "label": "Otro / documento libre",
+      "category": "General",
+      "org": "Personalizado",
+      "sources": [],
+      "sections": [
+        {
+          "key": "introduccion",
+          "name": "Introducción",
+          "level": 1,
+          "optional": false,
+          "guide": "Contextualiza el tema, delimita el problema, explica el propósito y anticipa la organización del texto.",
+          "example": "Este trabajo analiza [tema] en [contexto] para [propósito]. Se organiza en [apartados].",
+          "check": "¿El lector comprende qué estudiarás, para qué y con qué alcance?",
+          "kind": "text"
+        },
+        {
+          "key": "desarrollo",
+          "name": "Desarrollo",
+          "level": 1,
+          "optional": false,
+          "guide": "Organiza el contenido según tu consigna y añade o elimina apartados.",
+          "example": "Redacta con tus datos, tu contexto y fuentes comprobables; no copies un ejemplo como si fuera un resultado real.",
+          "check": "¿Este apartado cumple su función y se relaciona con el objetivo del trabajo?",
+          "kind": "text"
+        },
+        {
+          "key": "conclusiones",
+          "name": "Conclusiones",
+          "level": 1,
+          "optional": false,
+          "guide": "Responde al propósito a partir de lo que desarrollaste. Distingue lo demostrado de lo que no puede concluirse; no introduzcas datos nuevos.",
+          "example": "En relación con [objetivo], la evidencia permite concluir [conclusión delimitada]. No permite establecer [alcance que excedería los datos].",
+          "check": "¿Las conclusiones están respaldadas por el desarrollo y no exageran los hallazgos?",
+          "kind": "text"
+        },
+        {
+          "key": "referencias",
+          "name": "Referencias",
+          "level": 1,
+          "optional": false,
+          "guide": "Incluye solo fuentes utilizadas y citadas. Comprueba autor, fecha, título y procedencia; ordénalas alfabéticamente con sangría francesa.",
+          "example": "Autor, A. A. (Año). Título de la obra. Editorial. Es solo una estructura para un libro: completa una fuente real y utiliza el modelo correspondiente a su tipo.",
+          "check": "¿Cada cita tiene su referencia y cada referencia está citada?",
+          "kind": "text"
+        }
+      ],
+      "summary": "Comienza con una estructura editable sin atribución institucional.",
+      "why": "Permite adaptar consignas que no estén cubiertas por fuentes verificadas.",
+      "checked": "2026-09-13",
+      "revision": "1",
+      "cover": true,
+      "toc": false,
+      "status": "Adaptación educativa",
+      "scope": "Estructura guiada; formato base APA 7",
+      "warnings": [
+        "No se ha asociado una guía institucional. Registra tus requisitos en Configuración."
+      ],
+      "checklist": [
+        "Confirmé la consigna, el tipo de trabajo y el reglamento o guía que me corresponde.",
+        "Verifiqué si la portada y los preliminares institucionales requieren archivos oficiales.",
+        "Mis afirmaciones, datos y citas tienen fuentes o evidencia; no inventé resultados.",
+        "Revisé referencias, ortografía, contenido y el archivo Word final."
+      ],
+      "institutional": false,
+      "historical": false,
+      "adaptation": "Las explicaciones son una paráfrasis didáctica propia. La selección y rotulación de apartados se adapta a esta herramienta; no es una reproducción ni aprobación institucional."
+    }
+  ]
+}

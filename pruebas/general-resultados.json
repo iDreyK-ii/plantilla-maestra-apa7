@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "name": "Identidad para público general; el modelo especializado sigue disponible",
+      "ok": true
+    },
+    {
+      "name": "Cuatro categorías, 14 modelos sin duplicados y botones con estado accesible",
+      "ok": true
+    },
+    {
+      "name": "Categoría, búsqueda y procedencia se combinan; el estado vacío permite recuperarse",
+      "ok": true
+    },
+    {
+      "name": "Página independiente: categorías y 17 enlaces nativos sin JavaScript",
+      "ok": true
+    },
+    {
+      "name": "APA general con ejemplos: portada, niveles 1–5, citas, tabla, figura y referencias",
+      "ok": true
+    },
+    {
+      "name": "Exportación real de los ejemplos a Word",
+      "ok": true
+    },
+    {
+      "name": "Hoja en blanco independiente: no sobrescribe el documento de ejemplos",
+      "ok": true
+    },
+    {
+      "name": "Los dos documentos se conservan al recargar y los ejemplos no alteran el modelo de tesis",
+      "ok": true
+    },
+    {
+      "name": "Dashboard con rutas y categorías: responsive y accesible",
+      "ok": true
+    },
+    {
+      "name": "Sin errores JavaScript en los nuevos recorridos",
+      "ok": true
+    }
+  ],
+  "errors": []
+}
